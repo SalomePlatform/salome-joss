@@ -21,8 +21,6 @@ authors:
     affiliation: 1
   - name: Aymeric Canton
     affiliation: 1
-  - name: Nabil Ghodbane
-    affiliation: 1
   - name: Anida Khizar
     affiliation: 1
   - name: Francis Kloss
@@ -44,6 +42,10 @@ authors:
   - name: Clarisse Genrault
     affiliation: 1
   - name: Nicolas Rechatin
+    affiliation: 1
+  - name: Guytri Kastane
+    affiliation: 1
+  - name: Nabil Ghodbane
     affiliation: 1
   - name: Aymeric Sonolet
     affiliation: 1
@@ -165,49 +167,50 @@ bibliography: paper.bib
 
 # Summary
 
-SALOME is an open-source, integrated platform for numerical simulation that provides researchers and engineers with a comprehensive environment for pre-processing and post-processing tasks. SALOME's ecosystem incorporates state-of-the-art components for Computer-Aided Design (CAD), meshing, mesh adaptation, data visualization, calculation supervision, and uncertainty quantification, thereby facilitating the entire workflow of computational studies across various scientific and engineering disciplines.
-
-The platform's modular architecture allows for seamless integration of its components, creating a cohesive environment for end-to-end simulation pipelines. Users can interact with SALOME through an intuitive graphical user interface (GUI) or via Python scripts, with full interoperability between these modes of operation. This dual-interface approach enhances both accessibility for novice users and flexibility for advanced practitioners, moreover this enables efficient automation of complex workflows.
-
-A key feature of SALOME is its extensibility, allowing researchers and software developers to construct domain-specific applications by assembling and customizing its modules. This capability facilitates the development of tailored solutions for particular numerical simulation challenges, ranging from computational fluid dynamics to structural mechanics and beyond.
-
-By providing a unified framework that seamlessly integrates various aspects of the simulation process, SALOME aims to enhance productivity, promote collaboration, and accelerate innovation in computational science and engineering research.
+SALOME acronym for "Simulation numérique par Architecture Logicielle en Open source et à Méthodologie d'Évolution" which translates to "BLA@@@@@ BLA@@@@@@ BLA@@@@@@@" in English. As the name suggests SALOME is an open-source platform for numerical simulation  which offers  researchers and engineers with a comprehensive environment for pre- and post-processing tasks. SALOME  is composed of different modules that provide   Computer Aided Design (CAD), meshing, mesh adaptation, data visualization, calculation supervision, and uncertainty quantification services, thereby facilitating the entire workflow of computational studies across various scientific and engineering disciplines.  Users can interact with these modules through an intuitive GUI or via Python scripts, with full interoperability between these two modes of operation. This dual-interface approach enhances both accessibility for novice users and flexibility for advanced practitioners, moreover this enables efficient automation of complex workflows. A key feature of SALOME is its extensibility, allowing researchers and software developers to construct domain-specific applications by assembling and customizing its modules. This capability facilitates the development of tailored solutions for particular numerical simulation challenges.
 
 # Statement of need
 
-Numerical simulations are indispensable in modern scientific research and engineering, enabling the study of complex phenomena that are too costly, dangerous, or impractical to investigate through physical experiments alone.  Numerical simulations allow researchers and engineers to predict system behavior, optimize designs, and gain insights into various physical processes across multiple scales. A typical simulation workflow involves several key steps: geometry creation or import, mesh generation, setting up physical models and boundary conditions, solving the problem numerically, and post-processing the results for analysis. Each of these steps often requires specialized tools and expertise. Researchers and engineers in fields of numerical simulations such as computational fluid dynamics, structural mechanics, and other multiphysics scenarios  often require a comprehensive platform that can handle various aspects of the simulation workflow. SALOME addresses this need by providing:
-
-- Integrated parametric CAD tools for geometry creation and modification
-- Advanced mesh generation capabilities for complex geometries
-- Pre-processing tools for setting up simulation parameters
-- Post-processing and visualization features for analyzing results
-- Integrated tool for uncertainty calculations
-- An extensible architecture that allows integration with external solvers
-
-Hence by using all these modules under one roof, SALOME, it aids the workflow of numerical simulations. 
+Numerical simulations are prominent in modern scientific research and engineering, enabling the study of complex phenomena that are too costly, dangerous, or impractical to investigate through physical experiments alone, these allow researchers and engineers to forecast system behavior, optimize designs, and gain insights into various physical processes across multiple scales. A typical simulation workflow involves several key steps: computational geometry creation or import, mesh generation, setting up physical models and boundary conditions, solving the problem numerically, and post-processing the results for analysis. Each of these steps  require specialized tools and expertise. Researchers and engineers in fields of numerical simulations such as  fluid dynamics, structural mechanics, and other multiphysics scenarios  require a comprehensive platform that can handle various aspects of the simulation workflow. Otherwise the work has to be distributed to multiple platforms or codes, which can be a tedious task.  Hosting all these services under one roof is the primary aim of SALOME platform or in other words SALOME's statement of need.   In the next section we detail on dedicated modules present in SALOME that assist the pre- and post-processing tasks for a numerical simulation. 
 
 ## Functionality
 
-SALOME is built on a modular architecture, offering a comprehensive suite of tools for the entire simulation workflow. Its key components include:
+SALOME is built on a modular architecture, offering a comprehensive suite of tools for the entire simulation workflow.  Below, point-wise, we briefly elaborate on key modules of SALOME:
 
 1. SHAPER & GEOM: These modules form the backbone of SALOME's CAD handling capabilities. They offer:
-   - Creation and modification of complex 3D geometries, interactively or via a python script 
-   - Import/export  support for a wide range of CAD formats (e.g., STEP, IGES, BREP)
-   - Advanced geometry cleaning and healing tools to repair imperfections
-   - Powerful editing features including boolean operations, fillets, and chamfers
-   - Parametric modeling for easy geometry updates
+   - Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD task.
+   - Import/export  support for a wide range of CAD formats e.g., XAO, STEP, IGES, BREP, STL, etc., this permits interoperability between different platforms/codes.    
+   - Advanced geometry cleaning and healing tools to repair imperfections.
+   - CAD editing features including boolean operations, fillets, and chamfers.
+   - Parametric modeling for easy geometry updates and parametric studies.
+
+   ![Left: complex multi-material geometry of the nuclear fusion synchrotron geometry detailed in GEOM, right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
+
+   See Figure \ref{fig:example1} for examples of complex CAD geometries: a geometry of  BLABLBA@@@@@ constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of BLABLABLA@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right) 
+
 2. SMESH:  A versatile meshing module that provides:
-   - Generation of high-quality meshes in 0D, 1D, 2D, and 3D, meshes can also be of higher order in nature
-   - Support for various element types: hexahedral, tetrahedral, pyramids, prisms,  polyhedral, quadrangular, triangular,  and hybrid meshes
-   - Multiple meshing algorithms suitable for different geometry types, different algorithms can be mixed to produce 
-   - Mesh quality analysis tools and automatic mesh correction features
-   - Import/export capabilities for numerous mesh formats (e.g., MED, UNV, STL) 
+
+   - Generation of high-quality meshes in 0D, 1D, 2D, and 3D, meshes can also be of higher order in nature.
+   - Support for various element types: hexahedral, tetrahedral, pyramids, prisms,  polyhedral, quadrangular, triangular,  and hybrid meshes.
+   - Multiple meshing algorithms suitable for different geometry types, different algorithms can be mixed to produce versatile hybrid meshes. 
+   - Mesh quality analysis tools and automatic mesh correction features. 
+   - Import/export capabilities for numerous mesh formats (e.g., MED, UNV, CGNS, Mesh, STL) 
+
+   ![Left: hybrid mesh of a nuclear reactor component, right: Cartesian-core mesh.\label{fig:example}](./images/smesh.png)
+
 3. HOMARD: For adapting meshes given a input field from a numerical solution or uniformly. Meshes can also  be adapted in SMESH via specialized plugins that target mesh adaption  based on numerical simulation fields.
-4. PARAVIS: For advanced data visualization based on stat-of-the-art visualization  tool ParaView that has SALOME enhances with additional plugins, with  capcity to visulize mechanical fields at quarature points, neutonics-specific plugings, capcity to load MED files. 
-5. YACS: A tool for managing multidisciplinary simulations through calculation schemes which  provides a means of defining a chain or coupling of calculation codes.
 
+![An example of mesh adaption in HOMARD.\label{fig:example}](./images/homard.png)
 
-The platform supports various data formats, enabling interoperability with other software tools commonly used in numerical simulation workflows.
+4. YACS: Multidisciplinary simulations persist in many real world problems where multiple physics interact and this is often  achieved by coupling the existing codes.   YACS is a tool for managing such multidisciplinary simulations through calculation schemes which  provides a means of defining a chain or coupling of calculation codes.
+
+5. PARAVIS: For advanced data visualization based on stat-of-the-art visualization  tool ParaView that has SALOME enhances with additional plugins, with  capcity to visulize mechanical fields at quarature points, neutonics-specific plugings, capcity to load MED files. 
+
+   ![Two examples of numerical solution field visulizations in PARAVIS.\label{fig:example}](./images/paravis.png)
+
+6. MEDCOUPLING: For mesh data management and interpolation of fields on a mesh. This module also features parallel mesh interpolation. 
+
+![An example of mesh field interpolation using MEDCOUPLIG.\label{fig:example}](./images/medcoupling.png) 
 
 ## Impact and Reuse Potential
 
@@ -218,7 +221,7 @@ SALOME has been widely adopted in both academic and industrial settings, contrib
 - [Kartos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM based simulation software @kartos, which has been ported in SALOME c.f. @kartosplugin.
 - [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): Mexican platform for analysis and design of nuclear reactors @xolocostli2022integration
 - DRAGON5/DONJON5: @hebert2013dragon5  platforms for designing computational schemes dedicated to fission nuclear reactors for space  which has been ported to SALOME @hebert2014integration
-- CEA APPLICATIONS: @@@@CITE
+- ALAMOS: geometry and mesh designing package for neutron physics involved in nuclear reactors @tomatis2022overview. 
 
 These examples make it clear, the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation. The following recent publications used SALOME as one of the components for their numerical simulations: molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, 
 
