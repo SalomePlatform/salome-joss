@@ -186,7 +186,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
    ![Left: complex multi-material geometry of the nuclear fusion synchrotron geometry detailed in GEOM, right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
 
-   See Figure \ref{fig:example1} for examples of complex CAD geometries: a geometry of  two industrial pieces, tokamak  constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of BLABLABLA@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right) 
+   See Figure \ref{fig:example1} for examples of complex CAD geometries: a geometry of  two industrial pieces, tokamak  constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of @@@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right) 
 
 2. SMESH:  A versatile meshing module that provides:
 
@@ -212,6 +212,8 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
 ![An example of mesh field interpolation using MEDCOUPLIG.\label{fig:example}](./images/medcoupling.png) 
 
+Please note for each of these  SALOME modules tutorials to get users started and user/developer documentations exist, c.f. @salomedoc.
+
 ## Impact and Reuse Potential
 
 SALOME has been widely adopted in both academic and industrial settings, contributing to research and development in various engineering disciplines. The following list present a non-exhaustive list of some recent solvers/platforms that have used SALOME:
@@ -230,6 +232,6 @@ One of the forces of SALOME is also that we provide precompiled binaries for Lin
 
 # Acknowledgements
 
-We would like to thank A, B, C, D, E, F. Since SALOME was an evolutive effort of 20+ years, authors would like to thank A, B, C, D for their sincerer  contributions. 
+We would like to thank  @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@. Since SALOME was an evolutive effort of 20+ years, authors would like to thank @@@@@@@ @@@@@@@, @@@@@@@, @@@@@@@ for their sincerer  contributions. 
 
 # References
