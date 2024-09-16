@@ -1,7 +1,7 @@
 ## How to compile a paper ##
 - Step 1: Clone this repository
 ```bash
-git clone git@github.com:mohd-afeef-badri/joss_papers.git
+git clone git@github.com:SalomePlatform/joss.git
 ```
 - Step 2: Get all dependencies 
 ```bash
