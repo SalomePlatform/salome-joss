@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20240712092738-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
+    <timestamp>20240712092738</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>Journal of Open Source Software</full_title>
+        <abbrev_title>JOSS</abbrev_title>
+        <issn media_type="electronic">2475-9066</issn>
+        <doi_data>
+          <doi>10.21105/joss</doi>
+          <resource>https://joss.theoj.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>01</month>
+          <year>1970</year>
+        </publication_date>
+        <journal_volume>
+          <volume>¿VOL?</volume>
+        </journal_volume>
+        <issue>¿ISSUE?</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>SALOME: Bridging CAD, Meshing, and Visualization in
+Numerical Simulations</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Mohd Afeef</given_name>
+            <surname>Badri</surname>
+            <ORCID>https://orcid.org/0000-0002-4646-8309</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Erwan</given_name>
+            <surname>Adam</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Vincent</given_name>
+            <surname>Bergeaud</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alain</given_name>
+            <surname>Buhsing</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Adrien</given_name>
+            <surname>Bruneton</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Aymeric</given_name>
+            <surname>Canton</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Anida</given_name>
+            <surname>Khizar</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Francis</given_name>
+            <surname>Kloss</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Michael</given_name>
+            <surname>Ndjinga</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Bernard</given_name>
+            <surname>Secher</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Marc</given_name>
+            <surname>Tajchman</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christian Van</given_name>
+            <surname>Wambeke</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guillaume</given_name>
+            <surname>Brooking</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christophe</given_name>
+            <surname>Bourcier</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Crouzet</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Clarisse</given_name>
+            <surname>Genrault</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Rechatin</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guytri</given_name>
+            <surname>Kastane</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nabil</given_name>
+            <surname>Ghodbane</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Aymeric</given_name>
+            <surname>Sonolet</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Cédric</given_name>
+            <surname>Aguerre</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jean-Philippe</given_name>
+            <surname>Argaud</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Yoann</given_name>
+            <surname>Audouin</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Thibault</given_name>
+            <surname>Autrusson</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Renaud</given_name>
+            <surname>Barate</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guillaume</given_name>
+            <surname>Boulant</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christian</given_name>
+            <surname>Caremoli</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jérémy</given_name>
+            <surname>Dalphin</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Gilles</given_name>
+            <surname>David</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jean-Pierre</given_name>
+            <surname>Ducreux</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ivan</given_name>
+            <surname>Dutka-Malen</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Eric</given_name>
+            <surname>Fayolle</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Yvan</given_name>
+            <surname>Fournier</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Anthony</given_name>
+            <surname>Geay</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Geimer</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Stéphane</given_name>
+            <surname>Gougeon</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Bruno</given_name>
+            <surname>Lathuilière</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Thomas</given_name>
+            <surname>Lauffenburger</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Patrick</given_name>
+            <surname>Lebailly</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Vincent</given_name>
+            <surname>Lefebvre</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Eric</given_name>
+            <surname>Lorentz</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Raphaël</given_name>
+            <surname>Marc</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexandra Martin</given_name>
+            <surname>Sanchez</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ovidiu</given_name>
+            <surname>Mircescu</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Olivier</given_name>
+            <surname>Moreau</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Dimitri</given_name>
+            <surname>Mottet</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pascale</given_name>
+            <surname>Noyret</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pascal</given_name>
+            <surname>Obry</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Soizic</given_name>
+            <surname>Peron</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Stéphane</given_name>
+            <surname>Ploix</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Angélique</given_name>
+            <surname>Ponçot</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alejandro</given_name>
+            <surname>Ribes-Cortes</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Frédérique</given_name>
+            <surname>Robin</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Martine</given_name>
+            <surname>Paolillo</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Paul</given_name>
+            <surname>Rascle</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Dorothée</given_name>
+            <surname>Sénéchal</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Tardieu</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Dominique</given_name>
+            <surname>Thai-Van</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Martin</given_name>
+            <surname>Bernhard</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Cesar</given_name>
+            <surname>Conopoima</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julia</given_name>
+            <surname>Dorovskikh</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Yves</given_name>
+            <surname>Fricaud</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexey</given_name>
+            <surname>Khromov</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Konstantin</given_name>
+            <surname>Leontev</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Frédéric</given_name>
+            <surname>Pons</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Marina</given_name>
+            <surname>Prokofieva</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Rejneri</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Dmitrii</given_name>
+            <surname>Shvydkoi</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ekaterina</given_name>
+            <surname>Sukhareva</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexey</given_name>
+            <surname>Sozinov</surname>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>01</month>
+          <day>01</day>
+          <year>1970</year>
+        </publication_date>
+        <pages>
+          <first_page>¿PAGE?</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">N/A</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">10.5281</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/openjournals</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>N/A</doi>
+          <resource>https://joss.theoj.org/papers/N/A</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://joss.theoj.org/papers/N/A.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="kartosplugin">
+            <article_title>Kratos salome plugin</article_title>
+            <author>Philipp</author>
+            <journal_title>GitHub repository</journal_title>
+            <cYear>2021</cYear>
+            <unstructured_citation>Philipp, B., Armin, G., &amp; Quirin,
+A. (2021). Kratos salome plugin. In GitHub repository. GitHub.
+https://github.com/KratosMultiphysics/KratosSalomePlugin</unstructured_citation>
+          </citation>
+          <citation key="kartos">
+            <article_title>KratosMultiphysics/kratos: Release
+v9.5</article_title>
+            <author>Vicente Mataix</author>
+            <journal_title>Zenodo</journal_title>
+            <cYear>2024</cYear>
+            <unstructured_citation>Vicente Mataix, F., Philipp, B.,
+Rubén, Z., Suneth, W., Riccardo, R., Alejandro, C., Jcotela, Carlos, R.,
+Josep, M., Tteschemacher, Miguel, M., Guillermo, C., Marc, N., Pooyan,
+D., Salva, L., Ignasi de, P., Joaquín Irazábal, G., AFranci, Ferran, A.,
+… Javi, G. (2024). KratosMultiphysics/kratos: Release v9.5. In Zenodo.
+Zenodo. https://doi.org/10.5281/zenodo.6926179</unstructured_citation>
+          </citation>
+          <citation key="biagooi2020effects">
+            <article_title>The effects of slit-pore geometry on
+capacitive properties: A molecular dynamics study</article_title>
+            <author>Biagooi</author>
+            <journal_title>Scientific Reports</journal_title>
+            <issue>1</issue>
+            <volume>10</volume>
+            <cYear>2020</cYear>
+            <unstructured_citation>Biagooi, M., &amp; Nedaaee Oskoee, S.
+(2020). The effects of slit-pore geometry on capacitive properties: A
+molecular dynamics study. Scientific Reports, 10(1), 6533.
+https://nature.com</unstructured_citation>
+          </citation>
+          <citation key="aydemir2019coupling">
+            <article_title>Coupling of reactor transient simulations via
+the SALOME platform</article_title>
+            <author>Aydemir</author>
+            <journal_title>Annals of Nuclear Energy</journal_title>
+            <volume>126</volume>
+            <cYear>2019</cYear>
+            <unstructured_citation>Aydemir, N., Trottier, A., Xu, T.,
+Echlin, M., &amp; Chin, T. (2019). Coupling of reactor transient
+simulations via the SALOME platform. Annals of Nuclear Energy, 126,
+434–442.</unstructured_citation>
+          </citation>
+          <citation key="zhang2021development">
+            <article_title>Development and verification of the coupled
+thermal–hydraulic code–TRACE/SCF based on the ICoCo interface and the
+SALOME platform</article_title>
+            <author>Zhang</author>
+            <journal_title>Annals of Nuclear Energy</journal_title>
+            <volume>155</volume>
+            <cYear>2021</cYear>
+            <unstructured_citation>Zhang, K., Munoz, A. C., &amp;
+Sanchez-Espinoza, V. H. (2021). Development and verification of the
+coupled thermal–hydraulic code–TRACE/SCF based on the ICoCo interface
+and the SALOME platform. Annals of Nuclear Energy, 155,
+108169.</unstructured_citation>
+          </citation>
+          <citation key="archambeau2004code">
+            <article_title>Code saturne: A finite volume code for the
+computation of turbulent incompressible flows-industrial
+applications</article_title>
+            <author>Archambeau</author>
+            <journal_title>International Journal on Finite
+Volumes</journal_title>
+            <issue>1</issue>
+            <volume>1</volume>
+            <cYear>2004</cYear>
+            <unstructured_citation>Archambeau, F., Méchitoua, N., &amp;
+Sakiz, M. (2004). Code saturne: A finite volume code for the computation
+of turbulent incompressible flows-industrial applications. International
+Journal on Finite Volumes, 1(1).
+https://hal.science/hal-01115371/file/saturne.pdf</unstructured_citation>
+          </citation>
+          <citation key="salomecfd">
+            <article_title>Salome CFD</article_title>
+            <author>Yvan</author>
+            <journal_title>GitHub repository</journal_title>
+            <cYear>2021</cYear>
+            <unstructured_citation>Yvan, F., Martin, F., Erwan, L. C.,
+&amp; Vincent, S. (2021). Salome CFD. In GitHub repository. GitHub.
+https://github.com/code-saturne/salome_cfd_extensions</unstructured_citation>
+          </citation>
+          <citation key="hebert2014integration">
+            <article_title>Integration of the DRAGON5/DONJON5 codes in
+the SALOME platform for performing multi-physics calculations in nuclear
+engineering</article_title>
+            <author>Hébert</author>
+            <journal_title>SNA+ MC 2013-joint international conference
+on supercomputing in nuclear applications+ monte carlo</journal_title>
+            <cYear>2014</cYear>
+            <unstructured_citation>Hébert, A. (2014). Integration of the
+DRAGON5/DONJON5 codes in the SALOME platform for performing
+multi-physics calculations in nuclear engineering. SNA+ MC 2013-Joint
+International Conference on Supercomputing in Nuclear Applications+
+Monte Carlo, 04307.</unstructured_citation>
+          </citation>
+          <citation key="hebert2013dragon5">
+            <article_title>DRAGON5: Designing computational schemes
+dedicated to fission nuclear reactors for space</article_title>
+            <author>Hébert</author>
+            <journal_title>Proceedings of Nuclear and Emerging
+Technologies for Space</journal_title>
+            <volume>25</volume>
+            <cYear>2013</cYear>
+            <unstructured_citation>Hébert, A. (2013). DRAGON5: Designing
+computational schemes dedicated to fission nuclear reactors for space.
+Proceedings of Nuclear and Emerging Technologies for Space,
+25.</unstructured_citation>
+          </citation>
+          <citation key="tomatis2022overview">
+            <article_title>Overview of SERMA’s graphical user interfaces
+for lattice transport calculations</article_title>
+            <author>Tomatis</author>
+            <journal_title>Energies</journal_title>
+            <issue>4</issue>
+            <volume>15</volume>
+            <cYear>2022</cYear>
+            <unstructured_citation>Tomatis, D., Bidault, F., Bruneton,
+A., &amp; Stankovski, Z. (2022). Overview of SERMA’s graphical user
+interfaces for lattice transport calculations. Energies, 15(4),
+1417.</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>

@@ -167,7 +167,7 @@ bibliography: paper.bib
 
 # Summary
 
-SALOME acronym for "Simulation numérique par Architecture Logicielle en Open source et à Méthodologie d'Évolution" which translates to "BLA@@@@@ BLA@@@@@@ BLA@@@@@@@" in English. As the name suggests SALOME is an open-source platform for numerical simulation  which offers  researchers and engineers with a comprehensive environment for pre- and post-processing tasks. SALOME  is composed of different modules that provide   Computer Aided Design (CAD), meshing, mesh adaptation, data visualization, calculation supervision, and uncertainty quantification services, thereby facilitating the entire workflow of computational studies across various scientific and engineering disciplines.  Users can interact with these modules through an intuitive GUI or via Python scripts, with full interoperability between these two modes of operation. This dual-interface approach enhances both accessibility for novice users and flexibility for advanced practitioners, moreover this enables efficient automation of complex workflows. A key feature of SALOME is its extensibility, allowing researchers and software developers to construct domain-specific applications by assembling and customizing its modules. This capability facilitates the development of tailored solutions for particular numerical simulation challenges.
+SALOME acronym for "Simulation numérique par Architecture Logicielle en Open source et à Méthodologie d'Évolution" which translates to "Numerical Simulation using Open Source Software Architecture with Evolutionary Methodology" in English. As the name suggests SALOME is an open-source platform for numerical simulation  which offers  researchers and engineers with a comprehensive environment for pre- and post-processing tasks. SALOME  is composed of different modules that provide:  Computer Aided Design (CAD), meshing, mesh adaptation, data visualization, calculation supervision, and uncertainty quantification services, thereby facilitating the entire workflow of computational studies across various scientific and engineering disciplines.  Users can interact with these modules through an intuitive GUI or via Python scripts, with full interoperability between these two modes of operation. This dual-interface approach enhances both accessibility for novice users and flexibility for advanced practitioners, moreover this enables efficient automation of complex workflows. A key feature of SALOME is its extensibility, allowing researchers and software developers to construct domain-specific applications by assembling and customizing its modules. This capability facilitates the development of tailored solutions for particular numerical simulation challenges.
 
 # Statement of need
 
@@ -186,7 +186,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
    ![Left: complex multi-material geometry of the nuclear fusion synchrotron geometry detailed in GEOM, right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
 
-   See Figure \ref{fig:example1} for examples of complex CAD geometries: a geometry of  BLABLBA@@@@@ constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of BLABLABLA@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right) 
+   See Figure \ref{fig:example1} for examples of complex CAD geometries: a geometry of  two industrial pieces, tokamak  constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of BLABLABLA@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right) 
 
 2. SMESH:  A versatile meshing module that provides:
 
@@ -214,20 +214,19 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
 ## Impact and Reuse Potential
 
-SALOME has been widely adopted in both academic and industrial settings, contributing to research and development in various engineering disciplines. The following list present a non-exhastive list of some recent solvers/platforms that have used SALOME:
+SALOME has been widely adopted in both academic and industrial settings, contributing to research and development in various engineering disciplines. The following list present a non-exhaustive list of some recent solvers/platforms that have used SALOME:
 
-- [Code Aster](https://code-aster.org/): @@@@CITE a parallel state-of-the-art finite element solver to solve problems in mecanics, this solver hevily relies on SALOMEs capacity to produce complex geometries, meshes, post-processing @@@@CITE.
-- [Code Saturne](https://www.code-saturne.org): @archambeau2004code a parallel FVM based general purpose Computational Fluid Dynamics (CFD) software, which has been ported to SALOME c.f. @salomecfd 
+- [Code Aster](https://code-aster.org/): a state-of-the-art finite element solver to solve problems in mechanics, this solver heavily relies on SALOMEs capacity to produce complex geometries, meshes, and post-processing  is delivered  with SALOME @AsterAster.
+- [Code Saturne](https://www.code-saturne.org): @archambeau2004code a parallel FVM based general purpose Computational Fluid Dynamics (CFD) software, which has been ported to SALOME c.f. @salomecfd.
 - [Kartos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM based simulation software @kartos, which has been ported in SALOME c.f. @kartosplugin.
-- [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): Mexican platform for analysis and design of nuclear reactors @xolocostli2022integration
-- DRAGON5/DONJON5: @hebert2013dragon5  platforms for designing computational schemes dedicated to fission nuclear reactors for space  which has been ported to SALOME @hebert2014integration
+- [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): Mexican platform for analysis and design of nuclear reactors @torres2015aztlan.
+- DRAGON5/DONJON5: @hebert2013dragon5  platforms for designing computational schemes dedicated to fission nuclear reactors for space  which has been ported to SALOME @hebert2014integration.
 - ALAMOS: geometry and mesh designing package for neutron physics involved in nuclear reactors @tomatis2022overview. 
+- SMARDDA: module for plasma interaction with complex engineered surfaces for tokomak design uses SALOME for GUI, CAD, mesh, and visualization @kos2019smiter. 
 
-These examples make it clear, the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation. The following recent publications used SALOME as one of the components for their numerical simulations: molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, 
+These examples make it clear, the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation. The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling @barbi2021femus, @zerkak2007lwr, molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, and aerospace @ermakov2020generation, etc.
 
-
-
-One of the forces of SALOME is also that we provide precompiled binaries for Linux and Windows and also a tool SAT that can assist  compilation of SALOME from scratch.  
+One of the forces of SALOME is also that we provide precompiled binaries for Linux and Windows and also a tool SAT that can assist  compilation of SALOME from scratch.  These ready to use binaries are made available on SALOME's official website (https://www.salome-platform.org/).
 
 # Acknowledgements
 
