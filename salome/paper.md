@@ -228,6 +228,7 @@ SALOME has been widely adopted in both academic and industrial settings, contrib
 - DRAGON5/DONJON5: @hebert2013dragon5  platforms for designing computational schemes dedicated to fission nuclear reactors for space  which has been ported to SALOME, @hebert2014integration.
 - ALAMOS: geometry and mesh designing package for neutron physics involved in nuclear reactors @tomatis2022overview. 
 - SMARDDA: module for plasma interaction with complex engineered surfaces for tokomak design uses SALOME for GUI, CAD, mesh, and visualization, @kos2019smiter. 
+- McCAD: a geometry conversion tool to enable the automatic  conversions of CAD models into the Monte Carlo (MC) geometries, uses SALOME for CAD manipulations and material assignment, c.f. @jne4020031.
 
 These examples make it clear, the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation. The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling @barbi2021femus, @zerkak2007lwr, molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, and aerospace @ermakov2020generation, etc.
 
