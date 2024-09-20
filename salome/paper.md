@@ -180,7 +180,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 1. SHAPER & GEOM: These modules form the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of @occ. Among the key functionalities of these modules are:
    - Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD task.
 
-   ![Left: complex multi-material geometry of a nuclear fusion synchrotron (tokamak) geometry detailed in GEOM, right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
+   ![Left: magnet system of a nuclear fusion synchrotron (tokamak) geometry detailed in GEOM, from @tactics, right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
 
    - Import/export  support for a wide range of CAD formats e.g., XAO, STEP, IGES, BREP, STL, etc., this permits interoperability between different platforms/codes.    
    - Advanced geometry cleaning and healing tools to repair imperfections.
@@ -197,7 +197,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
    - Mesh quality analysis tools and automatic mesh correction features. 
    - Import/export capabilities for numerous mesh formats (e.g., MED, UNV, CGNS, Mesh, STL).
 
-   ![Left: hybrid mesh of a nuclear reactor component, right: hexahedral-core mesh.\label{fig:example2}](./images/smesh.png)
+   ![Left: hybrid mesh of a nuclear reactor component, from @bottcher2024cfd, right: hexahedral-core mesh.\label{fig:example2}](./images/smesh.png)
 
    Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one uses MeshGems MG-CADSurf algorithm to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems MG-Tetra algorithm to generate tetrahedra, and SALOME's built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. This case highlights one of the key features of SMESH, i.e., interoperability between different algorithms in order to meet with the demands of this complex mesh. The mesh on the right uses MeshGems MG-CADSurf and  MG-Hybrid algorithms to generate triangles, tetrahedra, pyramids, and hexahedra.
 
@@ -230,7 +230,9 @@ SALOME has been widely adopted in both academic and industrial settings, contrib
 - SMARDDA: module for plasma interaction with complex engineered surfaces for tokomak design uses SALOME for GUI, CAD, mesh, and visualization, @kos2019smiter. 
 - McCAD: a geometry conversion tool to enable the automatic  conversions of CAD models into the Monte Carlo (MC) geometries, uses SALOME for CAD manipulations and material assignment, c.f. @jne4020031.
 
-These examples make it clear the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation. The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling @barbi2021femus, @zerkak2007lwr, molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, and aerospace @ermakov2020generation, etc.
+These examples make it clear the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation.
+
+The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling @barbi2021femus, @zerkak2007lwr, molecular dynamics @biagooi2020effects, nuclear engineering @aydemir2019coupling, @zhang2021development, aerospace @ermakov2020generation, and magnet-design @nunio2011salome and @pirapakaran2023fft, etc.
 
 One of the forces of SALOME is also that we provide precompiled binaries for Linux and Windows. We also provides a tool named SAT that can assist  compilation of SALOME from scratch.  These ready to use binaries are made available on SALOME's official website (https://www.salome-platform.org/).
 
