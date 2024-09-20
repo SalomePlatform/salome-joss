@@ -197,9 +197,9 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
    - Mesh quality analysis tools and automatic mesh correction features. 
    - Import/export capabilities for numerous mesh formats (e.g., MED, UNV, CGNS, Mesh, STL).
 
-   ![Left: hybrid mesh of a nuclear reactor component, right: Hexahedral-core mesh.\label{fig:example2}](./images/smesh.png)
+   ![Left: hybrid mesh of a nuclear reactor component, right: hexahedral-core mesh.\label{fig:example2}](./images/smesh.png)
 
-   Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one use MeshGems-CADSurf to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems-Tetra to generate tetrahedra and SALOME-s built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. The second one uses MeshGems-CADSurf and MeshGems-Hybrid to generate triangles, tetrahedra, pyramids and hexahedra.
+   Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one uses MeshGems MG-CADSurf algorithm to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems MG-Tetra algorithm to generate tetrahedra, and SALOME's built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. This case highlights one of the key features of SMESH, i.e., interoperability between different algorithms in order to meet with the demands of this complex mesh. The mesh on the right uses MeshGems MG-CADSurf and  MG-Hybrid algorithms to generate triangles, tetrahedra, pyramids, and hexahedra.
 
 3. HOMARD: SALOME's module for adapting meshes given an input field from a numerical solution. HOMARD also supports uniform mesh refinement based on subdivision method. Meshes can also  be adapted in SMESH via specialized plugins that target mesh adaption  based on numerical simulation fields. Figure \ref{fig:example3} provides a demonstration of iterative mesh adaption process achieved using HOMARD. 
 
