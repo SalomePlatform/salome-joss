@@ -5,7 +5,7 @@ git clone git@github.com:SalomePlatform/joss.git
 ```
 - Step 2: Get all dependencies 
 ```bash
-cd joss_papers
+cd joss
 git submodule update --init --recursive
 ```
 
