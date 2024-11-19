@@ -31,6 +31,8 @@ authors:
     affiliation: 1
   - name: Marc Tajchman
     affiliation: 1
+  - name: Flavien Thierry
+    affiliation: 1
   - name: Christian Van Wambeke
     affiliation: 1
   - name: Guillaume Brooking
@@ -156,7 +158,7 @@ affiliations:
    index: 2
  - name: Open Cascade, 92130, Issy-les-Moulineaux, France
    index: 3
- - name: CS group, 92350, Le Plessis-Robinson, France
+ - name: CS GROUP, 92350, Le Plessis-Robinson, France
    index: 4
 date: 19 November 2024
 bibliography: paper.bib
