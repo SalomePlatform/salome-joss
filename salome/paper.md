@@ -43,10 +43,6 @@ authors:
     affiliation: 1
   - name: Nicolas Rechatin
     affiliation: 1
-  - name: Guytri Kastane
-    affiliation: 1
-  - name: Nabil Ghodbane
-    affiliation: 1
   - name: Aymeric Sonolet
     affiliation: 1
   - name: Cédric Aguerre
@@ -149,14 +145,20 @@ authors:
     affiliation: 3
   - name: Alexey Sozinov
     affiliation: 3
+  - name: Guytri Kastane
+    affiliation: 4
+  - name: Nabil Ghodbane
+    affiliation: 4
 affiliations:
  - name: CEA  DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France
    index: 1
  - name: EDF R&D, 91120, Palaiseau, France
    index: 2
- - name: Open Cascade, 92130 Issy-les-Moulineaux, France
+ - name: Open Cascade, 92130, Issy-les-Moulineaux, France
    index: 3
-date: 13 August 2017
+ - name: CS group, 92350, Le Plessis-Robinson, France
+   index: 4
+date: 19 November 2024
 bibliography: paper.bib
 
 # Optional fields if submitting to a AAS journal too, see this blog post:
