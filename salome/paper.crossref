@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>20240712092738-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
-    <timestamp>20240712092738</timestamp>
+    <doi_batch_id>20250630142332-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
+    <timestamp>20250630142332</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -37,359 +37,576 @@
       </journal_issue>
       <journal_article publication_type="full_text">
         <titles>
-          <title>SALOME: Bridging CAD, Meshing, and Visualization in
-Numerical Simulations</title>
+          <title>SALOME: Bridging CAD, Meshing, and Visualization in Numerical Simulations</title>
         </titles>
         <contributors>
           <person_name sequence="first" contributor_role="author">
             <given_name>Mohd Afeef</given_name>
             <surname>Badri</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
             <ORCID>https://orcid.org/0000-0002-4646-8309</ORCID>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Erwan</given_name>
             <surname>Adam</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Vincent</given_name>
             <surname>Bergeaud</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Alain</given_name>
             <surname>Buhsing</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Adrien</given_name>
             <surname>Bruneton</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Aymeric</given_name>
             <surname>Canton</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Anida</given_name>
             <surname>Khizar</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Francis</given_name>
             <surname>Kloss</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Michael</given_name>
             <surname>Ndjinga</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Bernard</given_name>
             <surname>Secher</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Marc</given_name>
             <surname>Tajchman</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Flavien</given_name>
+            <surname>Thierry</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Christian Van</given_name>
             <surname>Wambeke</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Guillaume</given_name>
             <surname>Brooking</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Christophe</given_name>
             <surname>Bourcier</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Nicolas</given_name>
             <surname>Crouzet</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Clarisse</given_name>
             <surname>Genrault</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Nicolas</given_name>
             <surname>Rechatin</surname>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Guytri</given_name>
-            <surname>Kastane</surname>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Nabil</given_name>
-            <surname>Ghodbane</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Aymeric</given_name>
             <surname>Sonolet</surname>
+            <affiliations>
+              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Cédric</given_name>
             <surname>Aguerre</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Jean-Philippe</given_name>
             <surname>Argaud</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Yoann</given_name>
             <surname>Audouin</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Thibault</given_name>
             <surname>Autrusson</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Renaud</given_name>
             <surname>Barate</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Guillaume</given_name>
             <surname>Boulant</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Christian</given_name>
             <surname>Caremoli</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Jérémy</given_name>
             <surname>Dalphin</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Gilles</given_name>
             <surname>David</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Jean-Pierre</given_name>
             <surname>Ducreux</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Ivan</given_name>
             <surname>Dutka-Malen</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Eric</given_name>
             <surname>Fayolle</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Yvan</given_name>
             <surname>Fournier</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Anthony</given_name>
             <surname>Geay</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Nicolas</given_name>
             <surname>Geimer</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Stéphane</given_name>
             <surname>Gougeon</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Bruno</given_name>
             <surname>Lathuilière</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Thomas</given_name>
             <surname>Lauffenburger</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Patrick</given_name>
             <surname>Lebailly</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Vincent</given_name>
             <surname>Lefebvre</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Eric</given_name>
             <surname>Lorentz</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Raphaël</given_name>
             <surname>Marc</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Alexandra Martin</given_name>
             <surname>Sanchez</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Ovidiu</given_name>
             <surname>Mircescu</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Olivier</given_name>
             <surname>Moreau</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Dimitri</given_name>
             <surname>Mottet</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Pascale</given_name>
             <surname>Noyret</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Pascal</given_name>
             <surname>Obry</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Soizic</given_name>
             <surname>Peron</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Stéphane</given_name>
             <surname>Ploix</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Angélique</given_name>
             <surname>Ponçot</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Alejandro</given_name>
             <surname>Ribes-Cortes</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Frédérique</given_name>
             <surname>Robin</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Martine</given_name>
             <surname>Paolillo</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Paul</given_name>
             <surname>Rascle</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Dorothée</given_name>
             <surname>Sénéchal</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Nicolas</given_name>
             <surname>Tardieu</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Dominique</given_name>
             <surname>Thai-Van</surname>
+            <affiliations>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Martin</given_name>
             <surname>Bernhard</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Cesar</given_name>
             <surname>Conopoima</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Julia</given_name>
             <surname>Dorovskikh</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Yves</given_name>
             <surname>Fricaud</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Alexey</given_name>
             <surname>Khromov</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Konstantin</given_name>
             <surname>Leontev</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Frédéric</given_name>
             <surname>Pons</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Marina</given_name>
             <surname>Prokofieva</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Nicolas</given_name>
             <surname>Rejneri</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Dmitrii</given_name>
             <surname>Shvydkoi</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Ekaterina</given_name>
             <surname>Sukhareva</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
             <given_name>Alexey</given_name>
             <surname>Sozinov</surname>
+            <affiliations>
+              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
+            </affiliations>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guytri</given_name>
+            <surname>Kastane</surname>
+            <affiliations>
+              <institution><institution_name>CS GROUP, 92350, Le Plessis-Robinson, France</institution_name></institution>
+            </affiliations>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nabil</given_name>
+            <surname>Ghodbane</surname>
+            <affiliations>
+              <institution><institution_name>CS GROUP, 92350, Le Plessis-Robinson, France</institution_name></institution>
+            </affiliations>
           </person_name>
         </contributors>
         <publication_date>
@@ -428,131 +645,221 @@ Numerical Simulations</title>
           </collection>
         </doi_data>
         <citation_list>
+          <citation key="bottcher2024cfd">
+            <article_title>CFD analysis of coolant mixing in VVER-1000/V320 reactor pressure vessel</article_title>
+            <author>Böttcher</author>
+            <journal_title>Annals of Nuclear Energy</journal_title>
+            <volume>197</volume>
+            <doi>10.1016/j.anucene.2023.110274</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Böttcher, M., Bernard, O., Mas, A., Sanchez, V., Nop, R., Belaunde, F., Bourcier, C., Ruban, D., Hashymov, A., Halim, O., &amp; others. (2024). CFD analysis of coolant mixing in VVER-1000/V320 reactor pressure vessel. Annals of Nuclear Energy, 197, 110274. https://doi.org/10.1016/j.anucene.2023.110274</unstructured_citation>
+          </citation>
+          <citation key="tactics">
+            <article_title>TACTIS couplage thermique – thermohydraulique</article_title>
+            <author>Quentin Le Coz</author>
+            <journal_title>Club Cast3M</journal_title>
+            <cYear>2019</cYear>
+            <unstructured_citation>Quentin Le Coz, F. N., Benoît Lacroix. (2019). TACTIS couplage thermique – thermohydraulique. In Club Cast3M. CEA. https://www-cast3m.cea.fr/index.php?xml=clubcast3m2019</unstructured_citation>
+          </citation>
+          <citation key="pirapakaran2023fft">
+            <article_title>FFT-based approach for the mechanical analysis of superconducting rutherford-type cables</article_title>
+            <author>Pirapakaran</author>
+            <journal_title>IEEE Transactions on Applied Superconductivity</journal_title>
+            <issue>5</issue>
+            <volume>33</volume>
+            <doi>10.1109/TASC.2023.3251289</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Pirapakaran, K., Nunio, F., Gélébart, L., Bourcier, C., &amp; Manil, P. (2023). FFT-based approach for the mechanical analysis of superconducting rutherford-type cables. IEEE Transactions on Applied Superconductivity, 33(5), 1–6. https://doi.org/10.1109/TASC.2023.3251289</unstructured_citation>
+          </citation>
+          <citation key="nunio2011salome">
+            <article_title>SALOME as a platform for magneto-mechanical simulation</article_title>
+            <author>Nunio</author>
+            <journal_title>IEEE transactions on applied superconductivity</journal_title>
+            <issue>3</issue>
+            <volume>22</volume>
+            <doi>10.1109/TASC.2011.2180297</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Nunio, F., &amp; Manil, P. (2011). SALOME as a platform for magneto-mechanical simulation. IEEE Transactions on Applied Superconductivity, 22(3), 4904904–4904904. https://doi.org/10.1109/TASC.2011.2180297</unstructured_citation>
+          </citation>
+          <citation key="ayachit2015paraview">
+            <volume_title>The paraview guide: A parallel visualization application</volume_title>
+            <author>Ayachit</author>
+            <cYear>2015</cYear>
+            <unstructured_citation>Ayachit, U. (2015). The paraview guide: A parallel visualization application. Kitware, Inc. https://dl.acm.org/doi/book/10.5555/2789330</unstructured_citation>
+          </citation>
+          <citation key="geuzaine2009gmsh">
+            <article_title>Gmsh: A 3-D finite element mesh generator with built-in pre-and post-processing facilities</article_title>
+            <author>Geuzaine</author>
+            <journal_title>International journal for numerical methods in engineering</journal_title>
+            <issue>11</issue>
+            <volume>79</volume>
+            <doi>10.1002/nme.2579</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Geuzaine, C., &amp; Remacle, J.-F. (2009). Gmsh: A 3-D finite element mesh generator with built-in pre-and post-processing facilities. International Journal for Numerical Methods in Engineering, 79(11), 1309–1331. https://doi.org/10.1002/nme.2579</unstructured_citation>
+          </citation>
+          <citation key="schoberl1997netgen">
+            <article_title>NETGEN an advancing front 2D/3D-mesh generator based on abstract rules</article_title>
+            <author>Schöberl</author>
+            <journal_title>Computing and visualization in science</journal_title>
+            <issue>1</issue>
+            <volume>1</volume>
+            <doi>10.1007/s007910050004</doi>
+            <cYear>1997</cYear>
+            <unstructured_citation>Schöberl, J. (1997). NETGEN an advancing front 2D/3D-mesh generator based on abstract rules. Computing and Visualization in Science, 1(1), 41–52. https://doi.org/10.1007/s007910050004</unstructured_citation>
+          </citation>
+          <citation key="ds3">
+            <article_title>3D Mesh Generation Software</article_title>
+            <author>Spatial</author>
+            <cYear>2024</cYear>
+            <unstructured_citation>Spatial. (2024). 3D Mesh Generation Software. Dassault Systèmes, Spatial Corp. https://www.spatial.com/products/3d-precise-mesh</unstructured_citation>
+          </citation>
+          <citation key="salomedoc">
+            <article_title>Salome platform documentation</article_title>
+            <cYear>2024</cYear>
+            <unstructured_citation>Salome platform documentation. (2024). SALOME. https://docs.salome-platform.org</unstructured_citation>
+          </citation>
+          <citation key="occ">
+            <article_title>Open CASCADE technology</article_title>
+            <cYear>2024</cYear>
+            <unstructured_citation>Open CASCADE technology. (2024). Open Cascade. https://opencascade.com/</unstructured_citation>
+          </citation>
           <citation key="kartosplugin">
             <article_title>Kratos salome plugin</article_title>
             <author>Philipp</author>
             <journal_title>GitHub repository</journal_title>
             <cYear>2021</cYear>
-            <unstructured_citation>Philipp, B., Armin, G., &amp; Quirin,
-A. (2021). Kratos salome plugin. In GitHub repository. GitHub.
-https://github.com/KratosMultiphysics/KratosSalomePlugin</unstructured_citation>
+            <unstructured_citation>Philipp, B., Armin, G., &amp; Quirin, A. (2021). Kratos salome plugin. In GitHub repository. GitHub. https://github.com/KratosMultiphysics/KratosSalomePlugin</unstructured_citation>
           </citation>
           <citation key="kartos">
-            <article_title>KratosMultiphysics/kratos: Release
-v9.5</article_title>
+            <article_title>KratosMultiphysics/kratos: Release v9.5</article_title>
             <author>Vicente Mataix</author>
             <journal_title>Zenodo</journal_title>
             <cYear>2024</cYear>
-            <unstructured_citation>Vicente Mataix, F., Philipp, B.,
-Rubén, Z., Suneth, W., Riccardo, R., Alejandro, C., Jcotela, Carlos, R.,
-Josep, M., Tteschemacher, Miguel, M., Guillermo, C., Marc, N., Pooyan,
-D., Salva, L., Ignasi de, P., Joaquín Irazábal, G., AFranci, Ferran, A.,
-… Javi, G. (2024). KratosMultiphysics/kratos: Release v9.5. In Zenodo.
-Zenodo. https://doi.org/10.5281/zenodo.6926179</unstructured_citation>
+            <unstructured_citation>Vicente Mataix, F., Philipp, B., Rubén, Z., Suneth, W., Riccardo, R., Alejandro, C., Jcotela, Carlos, R., Josep, M., Tteschemacher, Miguel, M., Guillermo, C., Marc, N., Pooyan, D., Salva, L., Ignasi de, P., Joaquín Irazábal, G., AFranci, Ferran, A., … Javi, G. (2024). KratosMultiphysics/kratos: Release v9.5. In Zenodo. Zenodo. https://doi.org/10.5281/zenodo.6926179</unstructured_citation>
           </citation>
           <citation key="biagooi2020effects">
-            <article_title>The effects of slit-pore geometry on
-capacitive properties: A molecular dynamics study</article_title>
+            <article_title>The effects of slit-pore geometry on capacitive properties: A molecular dynamics study</article_title>
             <author>Biagooi</author>
             <journal_title>Scientific Reports</journal_title>
             <issue>1</issue>
             <volume>10</volume>
+            <doi>10.1038/s41598-020-62943-7</doi>
             <cYear>2020</cYear>
-            <unstructured_citation>Biagooi, M., &amp; Nedaaee Oskoee, S.
-(2020). The effects of slit-pore geometry on capacitive properties: A
-molecular dynamics study. Scientific Reports, 10(1), 6533.
-https://nature.com</unstructured_citation>
+            <unstructured_citation>Biagooi, M., &amp; Nedaaee Oskoee, S. (2020). The effects of slit-pore geometry on capacitive properties: A molecular dynamics study. Scientific Reports, 10(1), 6533. https://doi.org/10.1038/s41598-020-62943-7</unstructured_citation>
           </citation>
           <citation key="aydemir2019coupling">
-            <article_title>Coupling of reactor transient simulations via
-the SALOME platform</article_title>
+            <article_title>Coupling of reactor transient simulations via the SALOME platform</article_title>
             <author>Aydemir</author>
             <journal_title>Annals of Nuclear Energy</journal_title>
             <volume>126</volume>
+            <doi>10.1016/j.anucene.2018.11.049</doi>
             <cYear>2019</cYear>
-            <unstructured_citation>Aydemir, N., Trottier, A., Xu, T.,
-Echlin, M., &amp; Chin, T. (2019). Coupling of reactor transient
-simulations via the SALOME platform. Annals of Nuclear Energy, 126,
-434–442.</unstructured_citation>
+            <unstructured_citation>Aydemir, N., Trottier, A., Xu, T., Echlin, M., &amp; Chin, T. (2019). Coupling of reactor transient simulations via the SALOME platform. Annals of Nuclear Energy, 126, 434–442. https://doi.org/10.1016/j.anucene.2018.11.049</unstructured_citation>
           </citation>
           <citation key="zhang2021development">
-            <article_title>Development and verification of the coupled
-thermal–hydraulic code–TRACE/SCF based on the ICoCo interface and the
-SALOME platform</article_title>
+            <article_title>Development and verification of the coupled thermal–hydraulic code–TRACE/SCF based on the ICoCo interface and the SALOME platform</article_title>
             <author>Zhang</author>
             <journal_title>Annals of Nuclear Energy</journal_title>
             <volume>155</volume>
+            <doi>10.1016/j.anucene.2021.108169</doi>
             <cYear>2021</cYear>
-            <unstructured_citation>Zhang, K., Munoz, A. C., &amp;
-Sanchez-Espinoza, V. H. (2021). Development and verification of the
-coupled thermal–hydraulic code–TRACE/SCF based on the ICoCo interface
-and the SALOME platform. Annals of Nuclear Energy, 155,
-108169.</unstructured_citation>
+            <unstructured_citation>Zhang, K., Munoz, A. C., &amp; Sanchez-Espinoza, V. H. (2021). Development and verification of the coupled thermal–hydraulic code–TRACE/SCF based on the ICoCo interface and the SALOME platform. Annals of Nuclear Energy, 155, 108169. https://doi.org/10.1016/j.anucene.2021.108169</unstructured_citation>
           </citation>
-          <citation key="archambeau2004code">
-            <article_title>Code saturne: A finite volume code for the
-computation of turbulent incompressible flows-industrial
-applications</article_title>
-            <author>Archambeau</author>
-            <journal_title>International Journal on Finite
-Volumes</journal_title>
-            <issue>1</issue>
-            <volume>1</volume>
-            <cYear>2004</cYear>
-            <unstructured_citation>Archambeau, F., Méchitoua, N., &amp;
-Sakiz, M. (2004). Code saturne: A finite volume code for the computation
-of turbulent incompressible flows-industrial applications. International
-Journal on Finite Volumes, 1(1).
-https://hal.science/hal-01115371/file/saturne.pdf</unstructured_citation>
+          <citation key="codesaturn">
+            <article_title>Code saturne: An open-source software for computational fluid dynamics</article_title>
+            <author>code_saturne</author>
+            <cYear>2025</cYear>
+            <unstructured_citation>code_saturne. (2025). Code saturne: An open-source software for computational fluid dynamics. EDF. https://www.code-saturne.org</unstructured_citation>
           </citation>
           <citation key="salomecfd">
             <article_title>Salome CFD</article_title>
             <author>Yvan</author>
             <journal_title>GitHub repository</journal_title>
             <cYear>2021</cYear>
-            <unstructured_citation>Yvan, F., Martin, F., Erwan, L. C.,
-&amp; Vincent, S. (2021). Salome CFD. In GitHub repository. GitHub.
-https://github.com/code-saturne/salome_cfd_extensions</unstructured_citation>
+            <unstructured_citation>Yvan, F., Martin, F., Erwan, L. C., &amp; Vincent, S. (2021). Salome CFD. In GitHub repository. GitHub. https://github.com/code-saturne/salome_cfd_extensions</unstructured_citation>
+          </citation>
+          <citation key="torres2015aztlan">
+            <article_title>AZTLAN: Mexican platform for analysis and design of nuclear reactors</article_title>
+            <author>Torres</author>
+            <journal_title>Proceedings of ICAPP 2015</journal_title>
+            <cYear>2015</cYear>
+            <unstructured_citation>Torres, A.-M. G., Espel, F. P., Valle Gallegos, E. del, François, J., Martin-del-Campo, C., &amp; Espinosa-Paredes, G. (2015). AZTLAN: Mexican platform for analysis and design of nuclear reactors. Proceedings of ICAPP 2015, 03–06.</unstructured_citation>
+          </citation>
+          <citation key="zerkak2007lwr">
+            <article_title>LWR Multi-physics developments and Applications within the framework of the NURESIM European Project</article_title>
+            <author>Zerkak</author>
+            <journal_title>M&amp;C/SNA</journal_title>
+            <cYear>2007</cYear>
+            <unstructured_citation>Zerkak, O., Coddington, P., Royer, E., Jimenez, J., &amp; others. (2007). LWR Multi-physics developments and Applications within the framework of the NURESIM European Project. M&amp;C/SNA. http://inis.iaea.org/search/search.aspx?orig_q=RN:42109256</unstructured_citation>
+          </citation>
+          <citation key="kos2019smiter">
+            <article_title>SMITER: A field-line tracing environment for ITER</article_title>
+            <author>Kos</author>
+            <journal_title>Fusion Engineering and Design</journal_title>
+            <volume>146</volume>
+            <doi>10.1016/j.fusengdes.2019.03.037</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Kos, L., Pitts, R., Simič, G., Brank, M., Anand, H., &amp; Arter, W. (2019). SMITER: A field-line tracing environment for ITER. Fusion Engineering and Design, 146, 1796–1800. https://doi.org/10.1016/j.fusengdes.2019.03.037</unstructured_citation>
+          </citation>
+          <citation key="ermakov2020generation">
+            <article_title>Generation of unstructured tetrahedral meshes for flow past flight vehicles based on open packages</article_title>
+            <author>Ermakov</author>
+            <journal_title>Physical-Chemical Kinetics in Gas Dynamics</journal_title>
+            <issue>2</issue>
+            <volume>21</volume>
+            <doi>10.33257/PhChGD.21.2.897</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Ermakov, M. K., &amp; Kryuchkova, A. (2020). Generation of unstructured tetrahedral meshes for flow past flight vehicles based on open packages. Physical-Chemical Kinetics in Gas Dynamics, 21(2). https://doi.org/10.33257/PhChGD.21.2.897</unstructured_citation>
+          </citation>
+          <citation key="jne4020031">
+            <article_title>A Novel Algorithm for CAD to CSG Conversion in McCAD</article_title>
+            <author>Harb</author>
+            <journal_title>Journal of Nuclear Engineering</journal_title>
+            <issue>2</issue>
+            <volume>4</volume>
+            <issn>2673-4362</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harb, M., Leichtle, D., &amp; Fischer, U. (2023). A Novel Algorithm for CAD to CSG Conversion in McCAD. Journal of Nuclear Engineering, 4(2), 436–447. https://www.mdpi.com/2673-4362/4/2/31</unstructured_citation>
+          </citation>
+          <citation key="barbi2021femus">
+            <article_title>FEMuS-Platform: A numerical platform for multiscale and multiphysics code coupling</article_title>
+            <author>Barbi</author>
+            <journal_title>Proceedings of the 9th International Conference on Computational Methods for Coupled Problems in Science and Engineering, COUPLED PROBLEMS</journal_title>
+            <doi>10.23967/coupled.2021.027</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Barbi, G., Bornia, G., Cerroni, D., Cervone, A., Chierici, A., Chirco, L., Da Vià, R., Giovacchini, V., Manservisi, S., &amp; Scardovelli, R. (2021). FEMuS-Platform: A numerical platform for multiscale and multiphysics code coupling. Proceedings of the 9th International Conference on Computational Methods for Coupled Problems in Science and Engineering, COUPLED PROBLEMS, 1–12. https://doi.org/10.23967/coupled.2021.027</unstructured_citation>
+          </citation>
+          <citation key="AsterAster">
+            <article_title>Finite element code_aster, Analysis of Structures and Thermomechanics for Studies and Research</article_title>
+            <author>code_aster</author>
+            <cYear>2024</cYear>
+            <unstructured_citation>code_aster. (2024). Finite element code_aster, Analysis of Structures and Thermomechanics for Studies and Research. EDF. https://code-aster.org</unstructured_citation>
           </citation>
           <citation key="hebert2014integration">
-            <article_title>Integration of the DRAGON5/DONJON5 codes in
-the SALOME platform for performing multi-physics calculations in nuclear
-engineering</article_title>
+            <article_title>Integration of the DRAGON5/DONJON5 codes in the SALOME platform for performing multi-physics calculations in nuclear engineering</article_title>
             <author>Hébert</author>
-            <journal_title>SNA+ MC 2013-joint international conference
-on supercomputing in nuclear applications+ monte carlo</journal_title>
+            <journal_title>SNA+ MC 2013-joint international conference on supercomputing in nuclear applications+ monte carlo</journal_title>
+            <doi>10.1051/snamc/201404307</doi>
             <cYear>2014</cYear>
-            <unstructured_citation>Hébert, A. (2014). Integration of the
-DRAGON5/DONJON5 codes in the SALOME platform for performing
-multi-physics calculations in nuclear engineering. SNA+ MC 2013-Joint
-International Conference on Supercomputing in Nuclear Applications+
-Monte Carlo, 04307.</unstructured_citation>
+            <unstructured_citation>Hébert, A. (2014). Integration of the DRAGON5/DONJON5 codes in the SALOME platform for performing multi-physics calculations in nuclear engineering. SNA+ MC 2013-Joint International Conference on Supercomputing in Nuclear Applications+ Monte Carlo, 04307. https://doi.org/10.1051/snamc/201404307</unstructured_citation>
           </citation>
           <citation key="hebert2013dragon5">
-            <article_title>DRAGON5: Designing computational schemes
-dedicated to fission nuclear reactors for space</article_title>
+            <article_title>DRAGON5: Designing computational schemes dedicated to fission nuclear reactors for space</article_title>
             <author>Hébert</author>
-            <journal_title>Proceedings of Nuclear and Emerging
-Technologies for Space</journal_title>
+            <journal_title>Proceedings of Nuclear and Emerging Technologies for Space</journal_title>
             <volume>25</volume>
             <cYear>2013</cYear>
-            <unstructured_citation>Hébert, A. (2013). DRAGON5: Designing
-computational schemes dedicated to fission nuclear reactors for space.
-Proceedings of Nuclear and Emerging Technologies for Space,
-25.</unstructured_citation>
+            <unstructured_citation>Hébert, A. (2013). DRAGON5: Designing computational schemes dedicated to fission nuclear reactors for space. Proceedings of Nuclear and Emerging Technologies for Space, 25.</unstructured_citation>
           </citation>
           <citation key="tomatis2022overview">
-            <article_title>Overview of SERMA’s graphical user interfaces
-for lattice transport calculations</article_title>
+            <article_title>Overview of SERMA’s graphical user interfaces for lattice transport calculations</article_title>
             <author>Tomatis</author>
             <journal_title>Energies</journal_title>
             <issue>4</issue>
             <volume>15</volume>
+            <doi>10.3390/en15041417</doi>
             <cYear>2022</cYear>
-            <unstructured_citation>Tomatis, D., Bidault, F., Bruneton,
-A., &amp; Stankovski, Z. (2022). Overview of SERMA’s graphical user
-interfaces for lattice transport calculations. Energies, 15(4),
-1417.</unstructured_citation>
+            <unstructured_citation>Tomatis, D., Bidault, F., Bruneton, A., &amp; Stankovski, Z. (2022). Overview of SERMA’s graphical user interfaces for lattice transport calculations. Energies, 15(4), 1417. https://doi.org/10.3390/en15041417</unstructured_citation>
           </citation>
         </citation_list>
       </journal_article>
