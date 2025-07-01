@@ -190,7 +190,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
 ## CAD ##
 
-**SHAPER** and **GEOM** modules form  the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. Among the key functionalities of these modules are:
+**SHAPER** and **GEOM** modules form  the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. While GEOM provides a procedural and scripting-oriented approach to geometry creation, SHAPER offers a more modern, parametric, and feature-based modeling environment through an intuitive GUI. Among the key functionalities of these modules are:
 
 - Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD task.
 
@@ -217,8 +217,6 @@ See Figure \ref{fig:example1} for examples of complex industrial CAD geometries 
 
 Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one uses MeshGems MG-CADSurf algorithm to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems MG-Tetra algorithm to generate tetrahedra, and SALOME's built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. This case highlights one of the key features of SMESH, i.e., interoperability between different algorithms in order to meet with the demands of this complex mesh. The mesh on the right uses MeshGems MG-CADSurf and  MG-Hybrid algorithms to generate triangles, tetrahedra, pyramids, and hexahedra.
 
-
-
 **HOMARD** offers mesh adaptation based on solution fields and refinement strategies. It supports iterative workflows and is also accessible via SMESH plugins. Figure \ref{fig:example3} provides a demonstration of iterative mesh adaption process achieved using HOMARD.
 
 ![An example of mesh adaption in HOMARD.\label{fig:example3}](./images/homard.png)
@@ -227,9 +225,13 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 
 ![An example of mesh field interpolation using MEDCOUPLING.\label{fig:example}](./images/medcoupling.png) 
 
-## Multiphysics Coupling and Supervision
+## Simulation Workflow and Supervision
 
-**YACS** is SALOME's module for orchestrating multidisciplinary simulations involving interacting physics, often through the coupling of existing codes. It enables users to define, manage, and automate complex simulation workflows using visual or scripted calculation schemes.
+**YACS** is SALOME's module for coordinating multidisciplinary simulations that require the interaction of multiple physical models or codes. It allows users to design, automate, and control simulation workflows via graphical interfaces or Python scripts, supporting both sequential and coupled execution strategies.
+
+**EFICAS** is a module in SALOME that servers to generate multi-code inputs and environments. It handles multiple versions of supported codes through developer-defined “Catalogue” files that specify available commands and parameters.
+
+**JOBMANAGER** is a module for managing the execution of simulation jobs on local or remote computing resources. It provides functionalities for job submission, monitoring, and resource allocation, streamlining the integration of simulation workflows with batch or HPC environments.
 
 ## Visualization
 
@@ -244,8 +246,6 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 ## Uncertainty Quantification
 
 **PERSELYS** is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSELYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
-
-Comprehensive tutorials and detailed user and developer documentation are available for each of the SALOME modules presented above (see [@salomedoc]). For reasons of conciseness, certain additional modules—such as ADAO, JobManager, and Eficas—have not been described herein. The reader is referred to [@salomedoc] for a complete overview of these and other components of the SALOME platform.
 
 # Impact and Reuse Potential
 
