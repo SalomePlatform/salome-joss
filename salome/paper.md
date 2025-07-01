@@ -190,9 +190,7 @@ SALOME is built on a modular architecture, offering a comprehensive suite of too
 
 ## CAD ##
 
-### SHAPER & GEOM
-
-These modules form the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. Among the key functionalities of these modules are:
+**SHAPER** and **GEOM** modules form  the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. Among the key functionalities of these modules are:
 
 - Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD task.
 
@@ -207,9 +205,7 @@ See Figure \ref{fig:example1} for examples of complex industrial CAD geometries 
 
 ## Mesh ##
 
-### SMESH
-
-A versatile meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. Briefly, SMESH  provides:
+**SMESH** a versatile meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. Briefly, SMESH  provides:
 
 - Generation of high-quality meshes in 0D, 1D, 2D, and 3D. Meshes can also be of higher order in nature.
 - Support for various element types: hexahedral, tetrahedral, pyramids, prisms,  polyhedral, quadrangular, triangular,  and hybrid meshes.
@@ -221,37 +217,23 @@ A versatile meshing module of SALOME with objectives of producing numerical simu
 
 Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one uses MeshGems MG-CADSurf algorithm to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems MG-Tetra algorithm to generate tetrahedra, and SALOME's built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. This case highlights one of the key features of SMESH, i.e., interoperability between different algorithms in order to meet with the demands of this complex mesh. The mesh on the right uses MeshGems MG-CADSurf and  MG-Hybrid algorithms to generate triangles, tetrahedra, pyramids, and hexahedra.
 
-### HOMARD
 
-SALOME's module for adapting meshes given an input field from a numerical solution. HOMARD also supports uniform mesh refinement based on subdivision method. Meshes can also  be adapted in SMESH via specialized plugins that target mesh adaption  based on numerical simulation fields. Figure \ref{fig:example3} provides a demonstration of iterative mesh adaption process achieved using HOMARD. 
+
+**HOMARD** offers mesh adaptation based on solution fields and refinement strategies. It supports iterative workflows and is also accessible via SMESH plugins. Figure \ref{fig:example3} provides a demonstration of iterative mesh adaption process achieved using HOMARD.
 
 ![An example of mesh adaption in HOMARD.\label{fig:example3}](./images/homard.png)
 
-### **MEDCOUPLING**
-
-A powerful module in SALOME for managing and exchanging mesh and field data between different numerical simulation codes. MEDCoupling is built upon the MED file format, a standardized data model co-developed by CEA and EDF, designed to store mesh and field data for numerical simulations. The MED format supports rich metadata, element connectivity, multi-domain partitioning, and field association across time steps, making it well-suited for multiphysics workflows.
-
-MEDCoupling enables:
-
-- Efficient storage and manipulation of meshes and simulation fields (scalar, vector, tensor) in memory.
-- Advanced field interpolation between meshes of different resolutions or topologies (e.g., structured, unstructured).
-- Partitioning of meshes for parallel simulation workflows.
-- Data exchange between codes through co-simulation or chaining.
-- Parallel interpolation support for scalable applications.
+**MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation workflows. Built on the MED format, it ensures interoperability between multiphysics codes. Figure \ref{fig:example} illustrates field transfer (interpolation) between hexahedral and tetrahedral meshes.  MEDCOUPLING is built upon the MED file format, a standardized data model co-developed by CEA and EDF, designed to store mesh and field data for numerical simulations. The MED format supports rich metadata, element connectivity, multi-domain partitioning, and field association across time steps, making it well-suited for multiphysics workflows.
 
 ![An example of mesh field interpolation using MEDCOUPLING.\label{fig:example}](./images/medcoupling.png) 
 
 ## Multiphysics Coupling and Supervision
 
-### YACS
-
-Multidisciplinary simulations persist in many real world problems where multiple physics interact and this is often  achieved by coupling the existing codes.  SALOME's YACS module is a tool for managing such multidisciplinary simulations through calculation schemes which  provides a means of defining a chain or coupling of calculation codes.
+**YACS** is SALOME's module for orchestrating multidisciplinary simulations involving interacting physics, often through the coupling of existing codes. It enables users to define, manage, and automate complex simulation workflows using visual or scripted calculation schemes.
 
 ## Visualization
 
-### PARAVIS
-
-For advanced data visualization based on state-of-the-art visualization, SALOME integrates ParaView, [@ayachit2015paraview], in SALOME's graphic user interface and python scripts and enhances it with additional plugins, with  capacity to visualize mechanical fields at quadrature points, capacity to load MED files, static-mesh filter which improves performance of post-processing  for transient simulations, capabilities of remeshing slices to triangular meshes from post-processed data, etc. Figure \ref{fig:example4} presents two examples of post-processed numerical simulations obtained with PARAVIS.  
+**PARAVIS** is SALOME’s integrated module for advanced data visualization, built on ParaView [@ayachit2015paraview]. It is accessible both through the graphical interface and Python scripts, and is enhanced with specialized plugins tailored for numerical simulation post-processing. Notable features include the ability to visualize mechanical fields at quadrature points, support for loading MED files, a static-mesh filter to accelerate post-processing of transient simulations, and tools for remeshing slices into triangular meshes. Figure \ref{fig:example4} shows two examples of simulation results visualized using PARAVIS. 
 
 ![Two examples of numerical solution field visualizations in PARAVIS.\label{fig:example4}](./images/paravis.png)
 
@@ -259,7 +241,11 @@ For advanced data visualization based on state-of-the-art visualization, SALOME 
 
 
 
-For each of these  SALOME modules presented above, tutorials to get users started and user/developer documentations exist, c.f. [@salomedoc]. Moreover, other SALOME modules like ADAO, JobManager, Eficas, PERSALYS, etc, have not been detailed in the paper for conciseness. Interested readers may refer to  [@salomedoc].
+## Uncertainty Quantification
+
+**PERSELYS** is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSELYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
+
+Comprehensive tutorials and detailed user and developer documentation are available for each of the SALOME modules presented above (see [@salomedoc]). For reasons of conciseness, certain additional modules—such as ADAO, JobManager, and Eficas—have not been described herein. The reader is referred to [@salomedoc] for a complete overview of these and other components of the SALOME platform.
 
 # Impact and Reuse Potential
 
