@@ -241,9 +241,7 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 
 ## Uncertainty Quantification
 
-**PERSALYS**, the graphical user interface of OpenTurns, is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSALYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
-
-Comprehensive tutorials and detailed user and developer documentation are available for each of the SALOME modules presented above (see [@salomedoc]). 
+**PERSALYS**, the graphical user interface of OpenTurns [@opeturns], is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSALYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
 
 # Impact and Reuse Potential
 
@@ -262,7 +260,12 @@ These examples make it clear the open-source nature of SALOME encourages communi
 
 The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling [@barbi2021femus], [@zerkak2007lwr], molecular dynamics [@biagooi2020effects], nuclear engineering [@aydemir2019coupling], [@zhang2021development], aerospace [@ermakov2020generation], and magnet-design [@nunio2011salome] and [@pirapakaran2023fft], etc.
 
-One of the forces of SALOME is also that we provide precompiled binaries for Linux and Windows. We also provides a tool named SAT that can assist  compilation of SALOME from scratch.  These ready to use binaries are made available on SALOME's official website (https://www.salome-platform.org/).
+# Documentation and Availability
+
+Comprehensive tutorials, as well as detailed user and developer documentation, are available for each of the SALOME modules presented above (see [@salomedoc]).
+
+A major strength of SALOME is the availability of precompiled binaries for both Linux and Windows platforms. In addition, a tool named SAT is provided to facilitate the compilation of SALOME from source. These ready-to-use binaries can be downloaded from the official SALOME website: [https://www.salome-platform.org/](https://www.salome-platform.org/).
+
 
 # Acknowledgements
 
