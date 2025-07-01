@@ -182,17 +182,17 @@ SALOME [^1] is an open-source platform for numerical simulation  which offers  r
 
 # Statement of need
 
-Numerical simulations are prominent in modern scientific research and engineering, enabling the study of complex phenomena that are too costly, dangerous, or impractical to investigate through physical experiments alone. These allow researchers and engineers to forecast system behavior, optimize designs, and gain insights into various physical processes across multiple scales. A typical simulation workflow involves several key steps: computational geometry creation or import, mesh generation, setting up physical models and boundary conditions, solving the problem numerically, and post-processing the results for analysis. Each of these steps  require specialized tools and expertise. Researchers and engineers in fields of numerical simulations such as  fluid dynamics, structural mechanics, and other multiphysics scenarios  require a comprehensive platform that can handle various aspects of the simulation workflow. Otherwise the work has to be distributed to multiple platforms or codes, which can be a tedious task.  Hosting all these services under one roof is the primary aim of SALOME platform or in other words SALOME's statement of need.   In the next section we detail on dedicated modules present in SALOME that assist the pre- and post-processing tasks for a numerical simulation. 
+Numerical simulations are prominent in modern scientific research and engineering, enabling the study of complex phenomena that are too costly, dangerous, or impractical to investigate through physical experiments alone. These allow researchers and engineers to forecast system behavior, optimize designs, and gain insights into various physical processes across multiple scales. A typical simulation workflow involves several key steps: computational geometry creation or import, mesh generation, setting up physical models and boundary conditions, solving the problem numerically, and post-processing the results for analysis. Each of these steps  requires specialized tools and expertise. Researchers and engineers in fields of numerical simulations such as  fluid dynamics, structural mechanics, and other multiphysics scenarios  require a comprehensive platform that can handle various aspects of the simulation workflow. Otherwise the work has to be distributed to multiple platforms or codes, which can be a tedious task.  Hosting all these services under one roof is the primary aim of SALOME platform or in other words SALOME's statement of need.   In the next section we detail on dedicated modules present in SALOME that assist the pre- and post-processing tasks for a numerical simulation. 
 
 # Functionality
 
-SALOME is built on a modular architecture, offering a comprehensive suite of tools for the entire simulation workflow.  Below, point-wise, we briefly elaborate on key modules of SALOME:
+SALOME is built on a modular architecture, offering a comprehensive suite of tools for the entire simulation workflow.  Below, we briefly elaborate the key modules of SALOME.
 
 ## CAD ##
 
 **SHAPER** and **GEOM** modules form  the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. While GEOM provides a procedural and scripting-oriented approach to geometry creation, SHAPER offers a more modern, parametric, and feature-based modeling environment through an intuitive GUI. Among the key functionalities of these modules are:
 
-- Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD task.
+- Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD tasks.
 
 ![Left: magnet system of a nuclear fusion synchrotron (tokamak) geometry detailed in GEOM, from [@tactics], right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
 
@@ -205,7 +205,7 @@ See Figure \ref{fig:example1} for examples of complex industrial CAD geometries 
 
 ## Mesh ##
 
-**SMESH** a versatile meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. Briefly, SMESH  provides:
+**SMESH** is the meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. Briefly, SMESH  provides:
 
 - Generation of high-quality meshes in 0D, 1D, 2D, and 3D. Meshes can also be of higher order in nature.
 - Support for various element types: hexahedral, tetrahedral, pyramids, prisms,  polyhedral, quadrangular, triangular,  and hybrid meshes.
@@ -239,13 +239,9 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 
 ![Two examples of numerical solution field visualizations in PARAVIS.\label{fig:example4}](./images/paravis.png)
 
-
-
-
-
 ## Uncertainty Quantification
 
-**PERSELYS** is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSELYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
+**PERSALYS**, the graphical user interface of OpenTurns, is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSALYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
 
 # Impact and Reuse Potential
 
