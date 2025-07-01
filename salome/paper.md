@@ -243,6 +243,8 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 
 **PERSALYS**, the graphical user interface of OpenTurns, is a native SALOME module developed by EDF for Uncertainty Quantification (UQ)**, **sensitivity analysis**, **surrogate modeling, and optimization. It provides an intuitive graphical interface for defining input uncertainties, building surrogate models, conducting global sensitivity analyses, and managing optimization workflows. Fully integrated with the SALOME environment and the MED file format, PERSALYS allows users to perform robust parametric studies and propagate uncertainties through simulation chains with minimal setup effort.
 
+Comprehensive tutorials and detailed user and developer documentation are available for each of the SALOME modules presented above (see [@salomedoc]). 
+
 # Impact and Reuse Potential
 
 SALOME has been widely adopted in both academic and industrial settings, contributing to research and development in various engineering and research disciplines. The following list presents a non-exhaustive list of some recent solvers/platforms that have used SALOME:
