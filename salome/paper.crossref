@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>20250630142332-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
-    <timestamp>20250630142332</timestamp>
+    <doi_batch_id>20260112135436-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
+    <timestamp>20260112135436</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -50,110 +50,6 @@
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
-            <given_name>Erwan</given_name>
-            <surname>Adam</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Vincent</given_name>
-            <surname>Bergeaud</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Alain</given_name>
-            <surname>Buhsing</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Adrien</given_name>
-            <surname>Bruneton</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Aymeric</given_name>
-            <surname>Canton</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Anida</given_name>
-            <surname>Khizar</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Francis</given_name>
-            <surname>Kloss</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Michael</given_name>
-            <surname>Ndjinga</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Bernard</given_name>
-            <surname>Secher</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Marc</given_name>
-            <surname>Tajchman</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Flavien</given_name>
-            <surname>Thierry</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Christian Van</given_name>
-            <surname>Wambeke</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Guillaume</given_name>
-            <surname>Brooking</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
             <given_name>Christophe</given_name>
             <surname>Bourcier</surname>
             <affiliations>
@@ -170,32 +66,24 @@
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
-            <given_name>Clarisse</given_name>
-            <surname>Genrault</surname>
+            <given_name>Nabil</given_name>
+            <surname>Ghodbane</surname>
             <affiliations>
               <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
             </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
-            <given_name>Nicolas</given_name>
-            <surname>Rechatin</surname>
+            <given_name>Alejandro</given_name>
+            <surname>Ribes-Cortes</surname>
             <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
             </affiliations>
           </person_name>
           <person_name sequence="additional"
                        contributor_role="author">
-            <given_name>Aymeric</given_name>
-            <surname>Sonolet</surname>
-            <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Cédric</given_name>
-            <surname>Aguerre</surname>
+            <given_name>Anthony</given_name>
+            <surname>Geay</surname>
             <affiliations>
               <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
             </affiliations>
@@ -204,78 +92,6 @@
                        contributor_role="author">
             <given_name>Jean-Philippe</given_name>
             <surname>Argaud</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Yoann</given_name>
-            <surname>Audouin</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Thibault</given_name>
-            <surname>Autrusson</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Renaud</given_name>
-            <surname>Barate</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Guillaume</given_name>
-            <surname>Boulant</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Christian</given_name>
-            <surname>Caremoli</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Jérémy</given_name>
-            <surname>Dalphin</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Gilles</given_name>
-            <surname>David</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Jean-Pierre</given_name>
-            <surname>Ducreux</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Ivan</given_name>
-            <surname>Dutka-Malen</surname>
             <affiliations>
               <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
             </affiliations>
@@ -294,318 +110,6 @@
             <surname>Fournier</surname>
             <affiliations>
               <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Anthony</given_name>
-            <surname>Geay</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Nicolas</given_name>
-            <surname>Geimer</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Stéphane</given_name>
-            <surname>Gougeon</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Bruno</given_name>
-            <surname>Lathuilière</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Thomas</given_name>
-            <surname>Lauffenburger</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Patrick</given_name>
-            <surname>Lebailly</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Vincent</given_name>
-            <surname>Lefebvre</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Eric</given_name>
-            <surname>Lorentz</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Raphaël</given_name>
-            <surname>Marc</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Alexandra Martin</given_name>
-            <surname>Sanchez</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Ovidiu</given_name>
-            <surname>Mircescu</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Olivier</given_name>
-            <surname>Moreau</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Dimitri</given_name>
-            <surname>Mottet</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Pascale</given_name>
-            <surname>Noyret</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Pascal</given_name>
-            <surname>Obry</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Soizic</given_name>
-            <surname>Peron</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Stéphane</given_name>
-            <surname>Ploix</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Angélique</given_name>
-            <surname>Ponçot</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Alejandro</given_name>
-            <surname>Ribes-Cortes</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Frédérique</given_name>
-            <surname>Robin</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Martine</given_name>
-            <surname>Paolillo</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Paul</given_name>
-            <surname>Rascle</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Dorothée</given_name>
-            <surname>Sénéchal</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Nicolas</given_name>
-            <surname>Tardieu</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Dominique</given_name>
-            <surname>Thai-Van</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Martin</given_name>
-            <surname>Bernhard</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Cesar</given_name>
-            <surname>Conopoima</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Julia</given_name>
-            <surname>Dorovskikh</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Yves</given_name>
-            <surname>Fricaud</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Alexey</given_name>
-            <surname>Khromov</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Konstantin</given_name>
-            <surname>Leontev</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Frédéric</given_name>
-            <surname>Pons</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Marina</given_name>
-            <surname>Prokofieva</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Nicolas</given_name>
-            <surname>Rejneri</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Dmitrii</given_name>
-            <surname>Shvydkoi</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Ekaterina</given_name>
-            <surname>Sukhareva</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Alexey</given_name>
-            <surname>Sozinov</surname>
-            <affiliations>
-              <institution><institution_name>Open Cascade, 92130, Issy-les-Moulineaux, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Guytri</given_name>
-            <surname>Kastane</surname>
-            <affiliations>
-              <institution><institution_name>CS GROUP, 92350, Le Plessis-Robinson, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Nabil</given_name>
-            <surname>Ghodbane</surname>
-            <affiliations>
-              <institution><institution_name>CS GROUP, 92350, Le Plessis-Robinson, France</institution_name></institution>
             </affiliations>
           </person_name>
         </contributors>
@@ -770,6 +274,13 @@
             <author>code_saturne</author>
             <cYear>2025</cYear>
             <unstructured_citation>code_saturne. (2025). Code saturne: An open-source software for computational fluid dynamics. EDF. https://www.code-saturne.org</unstructured_citation>
+          </citation>
+          <citation key="opeturns">
+            <article_title>OpenTURNS</article_title>
+            <author>Airbus</author>
+            <doi>10.1007/978-3-319-11259-6\_64-1</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Airbus, EDF, IMACS, ONERA, &amp; Phimeca. (2025). OpenTURNS. GitHub. https://doi.org/10.1007/978-3-319-11259-6\_64-1</unstructured_citation>
           </citation>
           <citation key="salomecfd">
             <article_title>Salome CFD</article_title>

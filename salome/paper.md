@@ -13,158 +13,30 @@ authors:
     orcid: 0000-0002-4646-8309
     corresponding: true
     affiliation: 1
-  - name: Erwan Adam
-    affiliation: 1
-  - name: Vincent Bergeaud
-    affiliation: 1
-  - name: Alain Buhsing
-    affiliation: 1
-  - name: Adrien Bruneton
-    affiliation: 1
-  - name: Aymeric Canton
-    affiliation: 1
-  - name: Anida Khizar
-    affiliation: 1
-  - name: Francis Kloss
-    affiliation: 1
-  - name: Michael Ndjinga
-    affiliation: 1
-  - name: Bernard Secher
-    affiliation: 1
-  - name: Marc Tajchman
-    affiliation: 1
-  - name: Flavien Thierry
-    affiliation: 1
-  - name: Christian Van Wambeke
-    affiliation: 1
-  - name: Guillaume Brooking
-    affiliation: 1
   - name: Christophe Bourcier
     affiliation: 1
   - name: Nicolas Crouzet
     affiliation: 1
-  - name: Clarisse Genrault
+  - name: Nabil Ghodbane
     affiliation: 1
-  - name: Nicolas Rechatin
-    affiliation: 1
-  - name: Aymeric Sonolet
-    affiliation: 1
-  - name: Cédric Aguerre
+  - name: Alejandro Ribes-Cortes
+    affiliation: 2
+  - name: Anthony Geay
     affiliation: 2
   - name: Jean-Philippe Argaud
-    affiliation: 2
-  - name: Yoann Audouin
-    affiliation: 2
-  - name: Thibault Autrusson
-    affiliation: 2
-  - name: Renaud Barate
-    affiliation: 2
-  - name: Guillaume Boulant
-    affiliation: 2
-  - name: Christian Caremoli
-    affiliation: 2
-  - name: Jérémy Dalphin
-    affiliation: 2
-  - name: Gilles David
-    affiliation: 2
-  - name: Jean-Pierre Ducreux
-    affiliation: 2
-  - name: Ivan Dutka-Malen
     affiliation: 2
   - name: Eric Fayolle
     affiliation: 2
   - name: Yvan Fournier
     affiliation: 2
-  - name: Anthony Geay
-    affiliation: 2
-  - name: Nicolas Geimer
-    affiliation: 2
-  - name: Stéphane Gougeon
-    affiliation: 2
-  - name: Bruno Lathuilière
-    affiliation: 2
-  - name: Thomas Lauffenburger
-    affiliation: 2
-  - name: Patrick Lebailly
-    affiliation: 2
-  - name: Vincent Lefebvre 
-    affiliation: 2
-  - name: Eric Lorentz
-    affiliation: 2
-  - name: Raphaël Marc
-    affiliation: 2
-  - name: Alexandra Martin Sanchez
-    affiliation: 2
-  - name: Ovidiu Mircescu
-    affiliation: 2
-  - name: Olivier Moreau
-    affiliation: 2
-  - name: Dimitri Mottet
-    affiliation: 2
-  - name: Pascale Noyret
-    affiliation: 2
-  - name: Pascal Obry
-    affiliation: 2
-  - name: Soizic Peron
-    affiliation: 2
-  - name: Stéphane Ploix
-    affiliation: 2
-  - name: Angélique Ponçot
-    affiliation: 2
-  - name: Alejandro Ribes-Cortes
-    affiliation: 2
-  - name: Frédérique Robin
-    affiliation: 2
-  - name: Martine Paolillo
-    affiliation: 2
-  - name: Paul Rascle
-    affiliation: 2
-  - name: Dorothée Sénéchal
-    affiliation: 2
-  - name: Nicolas Tardieu
-    affiliation: 2
-  - name: Dominique Thai-Van 
-    affiliation: 2
-  - name: Martin Bernhard
-    affiliation: 3
-  - name: Cesar Conopoima
-    affiliation: 3
-  - name: Julia Dorovskikh
-    affiliation: 3
-  - name: Yves Fricaud
-    affiliation: 3
-  - name: Alexey Khromov
-    affiliation: 3
-  - name: Konstantin Leontev
-    affiliation: 3
-  - name: Frédéric Pons
-    affiliation: 3
-  - name: Marina Prokofieva
-    affiliation: 3
-  - name: Nicolas Rejneri
-    affiliation: 3
-  - name: Dmitrii Shvydkoi
-    affiliation: 3
-  - name: Ekaterina Sukhareva
-    affiliation: 3
-  - name: Alexey Sozinov
-    affiliation: 3
-  - name: Guytri Kastane
-    affiliation: 4
-  - name: Nabil Ghodbane
-    affiliation: 4
 
 affiliations:
  - name: CEA  DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France
    index: 1
  - name: EDF R&D, 91120, Palaiseau, France
    index: 2
- - name: Open Cascade, 92130, Issy-les-Moulineaux, France
-   index: 3
- - name: CS GROUP, 92350, Le Plessis-Robinson, France
-   index: 4
 
-date: 05 September 2024
+date: 12 January 2026
 
 bibliography: paper.bib
 
@@ -186,42 +58,40 @@ Numerical simulations are prominent in modern scientific research and engineerin
 
 # Functionality
 
-SALOME is built on a modular architecture, offering a comprehensive suite of tools for the entire simulation workflow. Below, we briefly elaborate the key modules of SALOME.
+SALOME is built on a modular architecture offering a comprehensive suite of tools for the entire simulation workflow.
 
 ## CAD ##
 
-**SHAPER** and **GEOM** modules form  the backbone of SALOME's CAD handling capabilities. Both of these modules are built on top of [@occ]. While GEOM provides a procedural and scripting-oriented approach to geometry creation, SHAPER offers a more modern, parametric, and feature-based modeling environment through an intuitive GUI. Among the key functionalities of these modules are:
+**SHAPER** and **GEOM** modules provide CAD capabilities built on top of [@occ].  While GEOM focuses on procedural, scripting-oriented geometry creation, SHAPER offers a modern, parametric, feature-based GUI. Key functionalities include:
 
-- Creation and modification of complex geometries, interactively via the GUI or via a Python script. The Python script here is a set of swigged C++ functions running to perform the required CAD tasks.
+- Interactive or Python-scripted creation of complex geometries.
 
-![Left: magnet system of a nuclear fusion synchrotron (tokamak) geometry detailed in GEOM, from [@tactics], right: @@@@@@@ detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
+![Left: magnet system of a nuclear fusion synchrotron (tokamak) geometry detailed in GEOM, from [@tactics], right: complex geometry detailed with SHAPER.\label{fig:example1}](./images/shaper_geom.png)
 
-- Import/export  support for a wide range of CAD formats e.g., XAO, STEP, IGES, BREP, STL, etc., this permits interoperability between different platforms/codes.    
-- Advanced geometry cleaning and healing tools to repair imperfections.
-- CAD editing features including boolean operations, fillets, and chamfers.
+- Import/export for standard CAD formats (e.g., XAO, STEP, IGES, STL) to ensure interoperability.   
+- Advanced geometry cleaning, healing, and boolean operations.
 - Parametric modeling for easy geometry updates and parametric studies.
 
-See Figure \ref{fig:example1} for examples of complex industrial CAD geometries generated with these modules.  A part of tokamak   constructed using GEOM (Figure \ref{fig:example1}-left) and a geometry of @@@@@@@ constructed using SHAPER (Figure \ref{fig:example1}-right).
+Figure \ref{fig:example1} displays industrial geometries generated by these modules, including a tokamak part constructed in GEOM and complex CAD in SHAPER.
 
 ## Mesh ##
 
-**SMESH** is the meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. Briefly, SMESH  provides:
+**SMESH** is the meshing module of SALOME with objectives of producing numerical simulation ready meshes. For mesh generation, SMESH incorporates SALOME's in-house meshing algorithms, alongside open-source ones from  Gmsh [@geuzaine2009gmsh] and NETGEN [@schoberl1997netgen], and commercial ones (MeshGems) from [@ds3]. SMESH provides:
 
-- Generation of high-quality meshes in 0D, 1D, 2D, and 3D. Meshes can also be of higher order in nature.
-- Support for various element types: hexahedral, tetrahedral, pyramids, prisms,  polyhedral, quadrangular, triangular,  and hybrid meshes.
-- Multiple meshing algorithms suitable for different geometry types. Different algorithms can be mixed to produce versatile hybrid meshes. 
-- Mesh quality analysis tools and automatic mesh correction features. 
-- Import/export capabilities for numerous mesh formats (e.g., MED, UNV, CGNS, Mesh, STL).
+- High-quality 0D–3D mesh generation, including high-order elements.
+- Diverse element types (hexahedral, tetrahedral, polyhedral) and hybrid meshes.
+- Algorithm mixing for versatile handling of complex geometry. 
+- Quality analysis, automatic correction, and extensive format support (e.g., MED, CGNS).
 
 ![Left: hybrid mesh of a nuclear reactor component, from [@bottcher2024cfd], right: hexahedral-core mesh.\label{fig:example2}](./images/smesh.png)
 
-Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. The left one uses MeshGems MG-CADSurf algorithm to mesh the surface in triangles, SALOME's built-in viscous layers algorithm to generate prisms, MeshGems MG-Tetra algorithm to generate tetrahedra, and SALOME's built-in Quadrangle mapping and Extrusion algorithms to generate hexahedra. This case highlights one of the key features of SMESH, i.e., interoperability between different algorithms in order to meet with the demands of this complex mesh. The mesh on the right uses MeshGems MG-CADSurf and  MG-Hybrid algorithms to generate triangles, tetrahedra, pyramids, and hexahedra.
+Figure \ref{fig:example2} illustrates SMESH's interoperability, combining algorithms like MeshGems, native viscous layers, and extrusion to mesh complex reactor components.
 
-**HOMARD** offers mesh adaptation based on solution fields and refinement strategies. It supports iterative workflows and is also accessible via SMESH plugins. Figure \ref{fig:example3} provides a demonstration of iterative mesh adaption process achieved using HOMARD.
+**HOMARD** performs mesh adaptation based on solution fields and refinement strategies, supporting iterative workflows (Figure \ref{fig:example3}).
 
 ![An example of mesh adaption in HOMARD.\label{fig:example3}](./images/homard.png)
 
-**MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation workflows. Built on the MED format, it ensures interoperability between multiphysics codes. Figure \ref{fig:example} illustrates field transfer (interpolation) between hexahedral and tetrahedral meshes.  MEDCOUPLING is built upon the MED file format, a standardized data model co-developed by CEA and EDF, designed to store mesh and field data for numerical simulations. The MED format supports rich metadata, element connectivity, multi-domain partitioning, and field association across time steps, making it well-suited for multiphysics workflows.
+**MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation. Built on the MED format (a standardized data model for mesh and field data) it ensures interoperability between multiphysics codes (Figure \ref{fig:example}).
 
 ![An example of mesh field interpolation using MEDCOUPLING.\label{fig:example}](./images/medcoupling.png) 
 
@@ -245,30 +115,28 @@ Figure \ref{fig:example2} presents two hybrid meshes constructed using SMESH. Th
 
 # Impact and Reuse Potential
 
-SALOME has been widely adopted in both academic and industrial settings, contributing to research and development in various engineering and research disciplines. The following list presents a non-exhaustive list of some recent solvers/platforms that have used SALOME:
+SALOME is widely used in academia and industry, supporting research and development across multiple engineering disciplines. Below is a non-exhaustive list of recent solvers and platforms that integrate SALOME:
 
-- [code_aster](https://code-aster.org/): a state-of-the-art finite element solver to solve problems in mechanics. This solver heavily relies on SALOMEs capacity to produce complex geometries, meshes, and post-processing  is delivered  with SALOME_MECA, c.f. [@AsterAster].
-- [code_saturne](https://www.code-saturne.org): [@codesaturn] a parallel FVM based general purpose Computational Fluid Dynamics (CFD) software, which has been integrated to SALOME_CFD, c.f. [@salomecfd].
-- [Kratos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM based simulation software [@kartos], which has been ported in SALOME, c.f. [@kartosplugin].
-- [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): Mexican platform for analysis and design of nuclear reactors [@torres2015aztlan].
-- DRAGON5/DONJON5: [@hebert2013dragon5]  platforms for designing computational schemes dedicated to fission nuclear reactors for space  which has been ported to SALOME, [@hebert2014integration].
-- ALAMOS: geometry and mesh designing package for neutron physics involved in nuclear reactors [@tomatis2022overview]. 
-- SMARDDA: module for plasma interaction with complex engineered surfaces for tokomak design uses SALOME for GUI, CAD, mesh, and visualization, [@kos2019smiter]. 
-- McCAD: a geometry conversion tool to enable the automatic  conversions of CAD models into the Monte Carlo (MC) geometries, uses SALOME for CAD manipulations and material assignment, c.f. [@jne4020031].
+- [code_aster](https://code-aster.org/):  state-of-the-art finite element solver for mechanics, relying on SALOME for geometry, meshing, and post-processing through SALOME_MECA [@AsterAster].
+- [code_saturne](https://www.code-saturne.org): [@codesaturn] a parallel finite-volume CFD solver integrated into SALOME_CFD [@salomecfd].
+- [Kratos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM framework [@kartos]ported to SALOME  [@kartosplugin].
+- [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): a Mexican platform for nuclear reactor analysis and design [@torres2015aztlan].
+- DRAGON5/DONJON5: [@hebert2013dragon5]  platforms for fission reactor simulation, including space applications, integrated into SALOME[@hebert2014integration].
+- ALAMOS: a geometry and meshing tool for neutron physics in nuclear reactors [@tomatis2022overview]. 
+- SMARDDA: a plasma–surface interaction module for tokamak design using SALOME for GUI, CAD, meshing, and visualization [@kos2019smiter]. 
+- McCAD: a geometry conversion tool for Monte Carlo simulations that uses SALOME for CAD manipulation and material assignment [@jne4020031].
 
-These examples make it clear the open-source nature of SALOME encourages community contributions and adaptations for specific use cases, enhancing its reuse potential across different domains of numerical simulation.
-
-The following recent publications used SALOME as one of the components for their numerical simulations: FEM-FVM coupling [@barbi2021femus], [@zerkak2007lwr], molecular dynamics [@biagooi2020effects], nuclear engineering [@aydemir2019coupling], [@zhang2021development], aerospace [@ermakov2020generation], and magnet-design [@nunio2011salome] and [@pirapakaran2023fft], etc.
+SALOME has also been used as a component in numerical simulations reported in recent publications covering FEM–FVM coupling [@barbi2021femus; @zerkak2007lwr], molecular dynamics [@biagooi2020effects], nuclear engineering [@aydemir2019coupling; @zhang2021development], aerospace engineering [@ermakov2020generation], and magnet design [@nunio2011salome; @pirapakaran2023fft].
 
 # Documentation and Availability
 
-Comprehensive tutorials, as well as detailed user and developer documentation, are available for each of the SALOME modules presented above (see [@salomedoc]).
+Comprehensive tutorials and detailed user and developer documentation are available for all SALOME modules [@salomedoc].
 
-A major strength of SALOME is the availability of precompiled binaries for both Linux and Windows platforms. In addition, a tool named SAT is provided to facilitate the compilation of SALOME from source. These ready-to-use binaries can be downloaded from the official SALOME website: [https://www.salome-platform.org/](https://www.salome-platform.org/).
+SALOME provides precompiled binaries for Linux and Windows, along with the SAT tool for building from source. Ready-to-use binaries are available from the official SALOME website (https://www.salome-platform.org/).
 
 
 # Acknowledgements
 
-We would like to thank  @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@ , @@@@@@@. Since SALOME was an evolutive effort of 20+ years, authors would like to thank @@@@@@@ @@@@@@@, @@@@@@@, @@@@@@@ for their sincerer  contributions. 
+We thank projects from CEA and EDF for financing SALOME over the past 20 years. We also acknowledge Open CASCADE and CS GROUP for their extensive development and support, alongside the many contributors who have shaped SALOMEs evolution.
 
 # References
