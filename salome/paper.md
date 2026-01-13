@@ -27,8 +27,6 @@ authors:
     affiliation: 2
   - name: Eric Fayolle
     affiliation: 2
-  - name: Yvan Fournier
-    affiliation: 2
 
 affiliations:
  - name: CEA  DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France
@@ -36,7 +34,7 @@ affiliations:
  - name: EDF R&D, 91120, Palaiseau, France
    index: 2
 
-date: 12 January 2026
+date: 13 January 2026
 
 bibliography: paper.bib
 
