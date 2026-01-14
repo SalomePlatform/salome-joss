@@ -29,7 +29,7 @@ authors:
     affiliation: 2
 
 affiliations:
- - name: CEA  DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France
+ - name: Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France
    index: 1
  - name: EDF R&D, 91120, Palaiseau, France
    index: 2

@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>20260113093229-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
-    <timestamp>20260113093229</timestamp>
+    <doi_batch_id>20260113142357-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
+    <timestamp>20260113142357</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -100,14 +100,6 @@
                        contributor_role="author">
             <given_name>Eric</given_name>
             <surname>Fayolle</surname>
-            <affiliations>
-              <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
-            </affiliations>
-          </person_name>
-          <person_name sequence="additional"
-                       contributor_role="author">
-            <given_name>Yvan</given_name>
-            <surname>Fournier</surname>
             <affiliations>
               <institution><institution_name>EDF R&amp;D, 91120, Palaiseau, France</institution_name></institution>
             </affiliations>
