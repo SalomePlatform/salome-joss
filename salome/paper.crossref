@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>20260113142357-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
-    <timestamp>20260113142357</timestamp>
+    <doi_batch_id>20260205095845-e03f5c6c2f9e91e4782d66a05f5f2540e3005461</doi_batch_id>
+    <timestamp>20260205095845</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -44,7 +44,7 @@
             <given_name>Mohd Afeef</given_name>
             <surname>Badri</surname>
             <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+              <institution><institution_name>Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France</institution_name></institution>
             </affiliations>
             <ORCID>https://orcid.org/0000-0002-4646-8309</ORCID>
           </person_name>
@@ -53,7 +53,7 @@
             <given_name>Christophe</given_name>
             <surname>Bourcier</surname>
             <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+              <institution><institution_name>Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France</institution_name></institution>
             </affiliations>
           </person_name>
           <person_name sequence="additional"
@@ -61,7 +61,7 @@
             <given_name>Nicolas</given_name>
             <surname>Crouzet</surname>
             <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+              <institution><institution_name>Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France</institution_name></institution>
             </affiliations>
           </person_name>
           <person_name sequence="additional"
@@ -69,7 +69,7 @@
             <given_name>Nabil</given_name>
             <surname>Ghodbane</surname>
             <affiliations>
-              <institution><institution_name>CEA DES, Université Paris-Saclay, 91191, Gif-sur-Yvette, France</institution_name></institution>
+              <institution><institution_name>Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France</institution_name></institution>
             </affiliations>
           </person_name>
           <person_name sequence="additional"
