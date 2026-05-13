@@ -34,7 +34,7 @@ affiliations:
  - name: EDF R&D, 91120, Palaiseau, France
    index: 2
 
-date: 5 Febuary 2026
+date: 13 May 2026
 
 bibliography: paper.bib
 
@@ -54,7 +54,7 @@ SALOME [^1] is an open-source platform that offers researchers and engineers a c
 
 Numerical simulations are central in modern scientific research and engineering, enabling the study of complex phenomena that are too costly, dangerous, or impractical to investigate through physical experiments alone. These allow researchers and engineers to forecast system behavior, optimize designs, and gain insights into various physical processes across multiple scales. A typical simulation workflow involves several key steps: computational geometry creation or import, mesh generation, setting up physical models and boundary conditions, numerical solution, and post-processing the results for analysis. Each of these steps requires specialized tools and expertise. Researchers and engineers working in areas such as fluid dynamics, structural mechanics, and multiphysics simulations require a comprehensive platform that can handle various aspects of the simulation workflow. Otherwise, the work must be distributed to multiple platforms or codes, which can be a tedious task. Hosting all these services under one roof is the primary aim of SALOME and constitutes its statement of need. In the next section we describe the dedicated modules present in SALOME that assist the pre- and post-processing tasks for numerical simulations.
 
-# Functionality
+# Software Design
 
 SALOME is built on a modular architecture offering a comprehensive suite of tools for the entire simulation workflow.
 
@@ -111,7 +111,7 @@ Figure \ref{fig:example2} illustrates SMESH's interoperability, combining algori
 
 **PERSALYS**, the graphical user interface of OpenTurns [@opeturns], is a native SALOME module developed by EDF for uncertainty quantification (UQ), sensitivity analysis, surrogate modeling, and optimization. It provides an intuitive interface for defining input uncertainties, building surrogate models, performing global sensitivity analyses, and managing optimization workflows. It enables robust parametric studies and uncertainty propagation through simulation chains with minimal setup effort.
 
-# Impact and Reuse Potential
+# Research Impact Statement
 
 SALOME is widely used in academia and industry, supporting research and development across multiple engineering disciplines. Below is a non-exhaustive list of recent solvers and platforms that integrate SALOME:
 
@@ -131,6 +131,10 @@ SALOME has also been used as a component in numerical simulations reported in re
 Comprehensive tutorials and detailed user and developer documentation are available for all SALOME modules [@salomedoc].
 
 SALOME provides precompiled binaries for Linux and Windows, along with the SAT tool for building from source. Ready-to-use binaries are available from the official SALOME website (https://www.salome-platform.org/).
+
+# AI Usage Disclosure
+
+AI tools were used for minor editorial support and language polishing during the preparation of this manuscript. All software-related aspects, including source code, development, desgin, testing, and validation, were carried out and verified by human developers and contributors.
 
 # Acknowledgements
 
