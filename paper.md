@@ -138,7 +138,7 @@ SALOME provides precompiled binaries for Linux and Windows, along with the SAT t
 
 # AI Usage Disclosure
 
-AI tools were used for minor editorial support and language polishing during the preparation of this manuscript. All software-related aspects, including source code, development, desgin, testing, and validation, were carried out and verified by human developers and contributors.
+AI tools were used for minor editorial support and language polishing during the preparation of this manuscript. All software-related aspects, including source code, development, design, testing, and validation, were carried out and verified by human developers and contributors.
 
 # Acknowledgements
 
