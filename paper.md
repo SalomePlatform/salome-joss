@@ -62,6 +62,10 @@ For numerical simulations, commercial platforms such as ANSYS, Abaqus, COMSOL Mu
 
 SALOME is built on a modular architecture offering a comprehensive suite of tools for the entire simulation workflow.
 
+![Modular architecture of the SALOME platform, with SALOME modules highlighted in magenta.\label{fig:examplesalome}](./images/salome-arc.png)
+
+This modularity is a deliberate design choice in SALOME over a monolithic, single-purpose tool. Each module (CAD, meshing, visualization, etc.) is developed and maintained largely independently, each in its own repository. This makes it easier to add, update, remove, or replace individual capabilities of a module over time. Two foundational modules, KERNEL and GUI, provide the common infrastructure that brings these independently developed modules together into a single consistent platform. KERNEL manages the underlying application services and module integration, while GUI provides a unified Qt-based graphical interface through which users can access and interact with the available modules. At the scripting level, a common Python API lets objects (geometries, meshes, fields) created in one module be passed directly to another, so a workflow can move from CAD to meshing to visualization without manual data conversion between modules. Each module is found at runtime through environment variables lookup that dynamically builds the application with the selected modules. Figure \ref{fig:examplesalome} illustrates this architecture, highlighting how the independently developed functional modules are brought together through the common KERNEL and GUI infrastructure and interact with external files, solvers, and user interfaces. The individual modules that make up this architecture are described in detail below.
+
 ## CAD
 
 **SHAPER** and **GEOM** modules provide CAD capabilities built on top of [@occ]. While GEOM focuses on procedural, scripting-oriented geometry creation, SHAPER offers a modern, parametric, feature-based GUI. Key functionalities include:
@@ -91,7 +95,7 @@ Figure \ref{fig:example2} illustrates SMESH's interoperability, combining algori
 
 **HOMARD** performs mesh adaptation based on solution fields and refinement strategies, supporting iterative workflows (Figure \ref{fig:example3}).
 
-![An example of mesh adaption in HOMARD.\label{fig:example3}](./images/homard.png)
+![An example of mesh adaptation in HOMARD.\label{fig:example3}](./images/homard.png)
 
 **MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation. Built on the MED format (a standardized data model for mesh and field data), it ensures interoperability between multiphysics codes (Figure \ref{fig:example}).
 
@@ -121,7 +125,7 @@ SALOME is widely used in academia and industry, supporting research and developm
 
 - [code_aster](https://code-aster.org/): state-of-the-art finite element solver for mechanics, relying on SALOME for geometry, meshing, and post-processing via SALOME_MECA [@AsterAster].
 - [code_saturne](https://www.code-saturne.org): [@codesaturn] a parallel finite-volume CFD solver integrated into SALOME_CFD [@salomecfd].
-- [Kratos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM framework [@kartos]ported to SALOME [@kartosplugin].
+- [Kratos Multiphysics](https://kratosmultiphysics.github.io/Kratos/): a parallel, multi-disciplinary FEM framework [@kartos] ported to SALOME [@kartosplugin].
 - [AZTLAN platform](https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=46065134): a Mexican platform for nuclear reactor analysis and design [@torres2015aztlan].
 - DRAGON5/DONJON5: [@hebert2013dragon5] platforms for fission reactor simulation, including space applications, integrated into SALOME[@hebert2014integration].
 - ALAMOS: a geometry and meshing tool for neutron physics in nuclear reactors [@tomatis2022overview]. 
@@ -142,6 +146,6 @@ AI tools were used for minor editorial support and language polishing during the
 
 # Acknowledgements
 
-We thank CEA and EDF for financing SALOME over the past 20 years. We also acknowledge Open CASCADE for their extensive development and support, alongside the many contributors who have shaped SALOMEs evolution.
+We thank CEA and EDF for financing SALOME over the past 20 years. We also acknowledge Open CASCADE for their extensive development and support, alongside the many contributors who have shaped SALOME's evolution.
 
 # References
