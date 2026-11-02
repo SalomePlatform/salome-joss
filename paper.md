@@ -56,7 +56,7 @@ Numerical simulations are widely used in science and engineering to study comple
 
 # State of the Field
 
-For numerical simulations, commercial platforms such as ANSYS, Abaqus, COMSOL Multiphysics,  offer integrated environments but are constrained by high licensing costs and limited customizability. In the open-source community, powerful individual tools have emerged, such as FreeCAD for parametric CAD, Gmsh and Netgen for meshing, ParaView for visualization, and solvers such as OpenFOAM, MOOSE, and FreeFEM. These components are powerful and widely adopted, yet combining them into automated workflows remains cumbersome due to interoperability and interface issues. SALOME addresses this gap and provides a tightly integrated open-source alternative. The individual modules of SALOME are described in detail in the following section.
+For numerical simulations, commercial platforms such as ANSYS, Abaqus, COMSOL Multiphysics,  offer integrated environments but are constrained by high licensing costs and limited customizability. In the open-source community, powerful individual tools have emerged, such as FreeCAD for parametric CAD, Gmsh and Netgen for meshing, ParaView for visualization, OpenFOAM, MOOSE, and FreeFEM for numerical solving, and preCICE [@chourdakis2022precice] and MUI [@tang2015multiscale] for multiphysics coupling. These components are powerful and widely adopted, yet combining them into automated workflows remains cumbersome due to interoperability and interface issues. SALOME addresses this gap and provides a tightly integrated open-source alternative that ranges from CAD modeling and mesh generation to data exchange, workflow orchestration, and results visualization. The individual modules of SALOME are described in detail in the following section.
 
 # Software Design
 
@@ -97,7 +97,7 @@ Figure \ref{fig:example2} illustrates SMESH's interoperability, combining algori
 
 ![An example of mesh adaptation in HOMARD.\label{fig:example3}](./images/homard.png)
 
-**MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation. Built on the MED format (a standardized data model for mesh and field data), it ensures interoperability between multiphysics codes (Figure \ref{fig:example}).
+**MEDCOUPLING** handles mesh/field data exchange, parallel interpolation, and co-simulation. Built on the MED format (a standardized data model for mesh and field data), it ensures interoperability between multiphysics codes (Figure \ref{fig:example}). Its mesh and field manipulation and interpolation capabilities complement dedicated coupling libraries such as preCICE [@chourdakis2022precice] and MUI [@tang2015multiscale], which focus on communication and data exchange between simulation codes.
 
 ![An example of mesh field interpolation using MEDCOUPLING.\label{fig:example}](./images/medcoupling.png)
 
