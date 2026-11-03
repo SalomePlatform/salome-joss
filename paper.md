@@ -138,7 +138,7 @@ SALOME has also been used as a component in numerical simulations reported in re
 
 Comprehensive tutorials and detailed user and developer documentation are available for all SALOME modules [@salomedoc].
 
-SALOME provides precompiled binaries for Linux and Windows, along with the SAT tool for building from source. Ready-to-use binaries are available from the official SALOME website (https://www.salome-platform.org/).
+SALOME provides precompiled binaries for Linux and Windows, available from the official [SALOME website](https://www.salome-platform.org/), along with the SAT tool for building from source. Detailed instructions for installing and configuring SALOME, as well as building it from source using SAT, are provided in the [SALOME GitHub wiki](https://github.com/SalomePlatform/.github/wiki/SAT).
 
 # AI Usage Disclosure
 
@@ -146,6 +146,6 @@ AI tools were used for minor editorial support and language polishing during the
 
 # Acknowledgements
 
-We thank CEA and EDF for financing SALOME over the past 20 years. We also acknowledge Open CASCADE for their extensive development and support, alongside the many contributors who have shaped SALOME's evolution.
+We thank CEA and EDF for financing SALOME over the past 20 years. We also acknowledge Open CASCADE for their extensive development and support, alongside the many contributors who have shaped SALOME's evolution, listed in the [SALOME contributors list](https://github.com/SalomePlatform/salome-joss/blob/main/CONTRIBUTORS.md).
 
 # References
