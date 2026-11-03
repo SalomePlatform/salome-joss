@@ -68,7 +68,7 @@ This modularity is a deliberate design choice in SALOME over a monolithic, singl
 
 Beyond integrating its core modules, this architecture allows developers to extend SALOME by creating custom modules and integrating external simulation tools without modifying its core components. To facilitate the development of new modules, SALOME provides PYHELLO, an example module implemented in Python that demonstrates how to develop and integrate additional functionalities using the services provided by KERNEL and GUI. PYHELLO serves as a practical starting point for developers wishing to create their own modules. A corresponding HELLO example is also available in C++.
 
-This extensibility has been successfully demonstrated through several domain-specific applications built upon SALOME, e.g., SALOME_MECA [@AsterAster] for structural mechanics with code_aster, SALOME_CFD [@salomecfd] for computational fluid dynamics with code_saturne, and the integration of Kratos Multiphysics [@kartosplugin] for multiphysics simulations. These applications illustrate how SALOME's existing capabilities can be combined with specialized solvers and custom functionalities to develop tailored numerical simulation environments. 
+This extensibility has been successfully demonstrated through several domain-specific applications built upon SALOME. A list of these applications is given in section [Research Impact Statement](#research-impact-statement). These applications illustrate how SALOME's existing capabilities can be combined with specialized solvers and custom functionalities to develop tailored numerical simulation environments. 
 
 The following subsections describe the main modules and capabilities provided by the SALOME platform.
 
