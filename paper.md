@@ -123,7 +123,7 @@ Figure \ref{fig:example2} illustrates SMESH's interoperability, combining algori
 
 ## Uncertainty Quantification
 
-**PERSALYS**, the graphical user interface of OpenTurns [@opeturns], is a native SALOME module developed by EDF for uncertainty quantification (UQ), sensitivity analysis, surrogate modeling, and optimization. It provides an intuitive interface for defining input uncertainties, building surrogate models, performing global sensitivity analyses, and managing optimization workflows. It enables robust parametric studies and uncertainty propagation through simulation chains with minimal setup effort.
+**PERSALYS**, the graphical user interface dedicated to uncertainty quantification (UQ) based on OpenTURNS [@openturns], is a native SALOME module developed by EDF and Phimeca. It provides an intuitive frontend for defining input distributions, generating design of experiments, building surrogate models, performing reliability and sensitivity analysis, and managing optimization or calibration workflows. It enables robust parametric studies and uncertainty propagation through simulation chains with minimal setup effort.
 
 # Research Impact Statement
 
